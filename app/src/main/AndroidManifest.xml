@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.globalscout"
+    android:versionCode="52"
+    android:versionName="2019-6.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreferenciasActivity"
+            android:label="@string/title_activity_preferencias" />
+        <activity
+            android:name=".TecladoEspecialActivity"
+            android:label="@string/title_activity_siete_cruces" />
+        <activity
+            android:name=".ClavesDobles"
+            android:label="@string/title_activity_claves_dobles" />
+        <activity
+            android:name=".ClavesTriples"
+            android:label="@string/title_activity_claves_triples" />
+        <activity
+            android:name=".LinternaMorseActivity"
+            android:label="@string/title_activity_linterna_morse" />
+        <activity
+            android:name=".GuiaDeClavesActivity"
+            android:label="@string/title_activity_guia_de_claves" />
+        <activity
+            android:name=".codificacionSemaforaActivity"
+            android:label="@string/title_activity_codificacion_semafora" />
+        <activity android:name=".JuegoActivity" />
+        <activity
+            android:name=".ClaveCasera"
+            android:label="@string/title_activity_clave_casera" />
+        <activity
+            android:name=".TraduccionActivity"
+            android:label="" />
+        <activity
+            android:name=".GrillaClavesActivity"
+            android:theme="@style/FormThemeDialog"
+            android:label="Claves disponibles"/>
+        <activity
+            android:name=".GrillaTraduccionesActivity"
+            android:theme="@style/FormThemeDialog"
+            android:label="Traducciones disponibles"/>
+    </application>
+
+</manifest>
