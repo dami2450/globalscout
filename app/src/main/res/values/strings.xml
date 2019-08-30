@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Globalscout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_preferencias">Claves Incluidas</string>
+    <string name="title_activity_parrilla_simple">ParrillaSimple</string>
+    <string name="title_activity_parrilla_compuesta">ParrillaCompuesta</string>
+    <string name="title_activity_siete_cruces">SieteCruces</string>
+    <string name="title_activity_claves_dobles">Claves Dobles</string>
+    <string name="title_activity_claves_triples">Claves Triples</string>
+    <string name="title_activity_linterna_morse">Linterna Morse</string>
+    <string name="title_activity_guia_de_claves">Guia De Claves</string>
+    <string name="title_activity_codificacion_semafora">Codificacion Semáforo</string>
+    <string name="title_activity_clave_casera">Clave Casera</string>
+    <string name="navigation_drawer_open">Abierto</string>
+    <string name="navigation_drawer_close">Cerrado</string>
+    <string name="titulo_menu_semaforo">Semaforo</string>
+    <string name="titulo_menu_teclados_especiales">Teclados Especiales</string>
+    <string name="titulo_menu_linterna_morse">Linterna Morse</string>
+    <string name="titulo_menu_juegos_de_claves">Juegos de Claves</string>
+    <string name="titulo_menu_guia_de_claves">Guia de Claves</string>
+    <string name="titulo_menu_definir_clave_casera">Definir Clave Casera</string>
+    <string name="titulo_menu_claves_dobles">Claves Dobles</string>
+    <string name="titulo_menu_claves_triples">Claves Triples</string>
+    <string name="titulo_menu_preferencias">Claves Incluidas</string>
+    <string name="titulo_menu_volver">Volver</string>
+</resources>
