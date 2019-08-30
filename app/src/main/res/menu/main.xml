@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuCasero"
+        android:icon="@drawable/ic_action_casero"
+        android:title="menuCasero"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_share"
+        android:title="action_share"
+        app:showAsAction="always"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+</menu>

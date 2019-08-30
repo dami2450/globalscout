@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuSemaforo"
+            android:icon="@drawable/ic_action_semaforo"
+            android:title="@string/titulo_menu_semaforo"/>
+        <item android:id="@+id/menuTeclado"
+            android:icon="@drawable/ic_action_teclado"
+            android:title="@string/titulo_menu_teclados_especiales"/>
+        <item android:id="@+id/menuLinterna"
+            android:icon="@drawable/ic_action_linterna"
+            android:title="@string/titulo_menu_linterna_morse"/>
+        <item android:id="@+id/menuVolver"
+            android:icon="@drawable/ic_action_volver"
+            android:title="@string/titulo_menu_volver"/>
+        <item android:id="@+id/menuGuia"
+            android:icon="@drawable/ic_action_guia"
+            android:title="@string/titulo_menu_guia_de_claves"/>
+        <item android:id="@+id/menuDoble"
+            android:icon="@drawable/ic_action_doble"
+            android:title="@string/titulo_menu_claves_dobles"/>
+        <item android:id="@+id/menuTriple"
+            android:icon="@drawable/ic_action_triple"
+            android:title="@string/titulo_menu_claves_triples"/>
+        <item android:id="@+id/menuPreferencias"
+            android:icon="@drawable/ic_action_preferencias"
+            android:title="@string/titulo_menu_preferencias"/>
+    </group>
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu7c"
+        android:icon="@drawable/a7c"
+        android:title="menu7c"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menups"
+        android:icon="@drawable/aps"
+        android:title="menups"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menupc"
+        android:icon="@drawable/apc"
+        android:title="menupc"
+        app:showAsAction="always"/>
+</menu>
