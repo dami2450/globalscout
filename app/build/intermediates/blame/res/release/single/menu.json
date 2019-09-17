@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_guia_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_guia_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_doble_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_doble_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_casera_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_casera_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\teclado.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\teclado.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_linterna_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_linterna_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_claves_triples.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\menu_claves_triples.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_teclado_especial_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_teclado_especial_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_claves_dobles.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\menu_claves_dobles.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_semaforo_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_semaforo_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_juegos_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_juegos_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_preferencias_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_preferencias_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_triple_drawer.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\activity_triple_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\menu\\casera.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\menu\\casera.xml"
+    }
+]

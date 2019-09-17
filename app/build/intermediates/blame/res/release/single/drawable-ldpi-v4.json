@@ -1,0 +1,698 @@
+[
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\npc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\npc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bborrar.jpg",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bborrar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ppc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ppc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\lpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\lpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\x3.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\x3.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\mpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\opc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\opc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\qpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\qpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\byps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\byps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bxps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bxps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bzps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bzps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\nnps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\nnps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bups.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bups.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\btps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\btps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bwps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bwps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bvps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bvps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\oang.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\oang.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bnps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bnps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\e7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\e7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\g7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\g7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\zpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\zpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\c7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\c7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\a7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\a7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bjps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bjps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\brps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\brps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bpps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bpps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\blps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\blps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bhps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bhps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\k7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\k7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\fpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\fpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\i7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\i7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bcoma.jpg",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bcoma.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\hpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\hpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\m7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\m7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\vpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\vpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\xpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\xpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\tpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\tpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\rpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\rpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\jpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\jpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\dpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\dpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\x2.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\x2.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\s7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\s7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\br7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\br7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bq7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bq7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\r7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\r7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\o7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\o7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\n7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\n7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\w7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\w7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\v7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\v7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\baps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\baps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\beps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\beps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bbps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bbps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\by7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\by7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bfps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bfps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bz7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bz7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\nnpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\nnpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bm7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bm7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bj7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bj7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bi7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bi7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bn7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bn7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bu7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bu7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bv7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bv7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bnn7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bnn7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\nn7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\nn7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bmps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bmps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\nps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\nps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\apc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\apc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\f7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\f7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ba7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ba7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bnnps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bnnps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\b7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\b7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\be7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\be7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bxpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bxpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ypc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ypc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bqps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bqps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bips.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bips.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\z7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\z7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\vps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\vps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\epc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\epc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\uang.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\uang.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ipc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ipc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\j7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\j7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\upc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\upc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\zps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\zps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\rps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\rps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\icono_menu.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\icono_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\jps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\jps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\fps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\fps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bmpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bmpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bnnpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bnnpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\blpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\blpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bnpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bnpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bkpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bkpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bopc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bopc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bppc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bppc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bqpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bqpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bjpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bjpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bhpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bhpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bipc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bipc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\btpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\btpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bgpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bgpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bdpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bdpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bfpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bfpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bepc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bepc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bvpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bvpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bspc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bspc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\brpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\brpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bupc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bupc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bwpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bwpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bpunto.jpg",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bpunto.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ops.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ops.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\qps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\qps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bb7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bb7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bypc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bypc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bd7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bd7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bf7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bf7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\gpc.jpg",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\gpc.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bapc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bapc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bcpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bcpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\wps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\wps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\gps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\gps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ips.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ips.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\y7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\y7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ups.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\ups.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\yps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\yps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\iang.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\iang.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\sps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\sps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\eps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\eps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\mps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\mps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\kps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\kps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\cps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\cps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\aps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\aps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\eang.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\eang.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\t7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\t7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\q7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\q7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bt7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bt7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bs7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bs7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bp7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bp7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bo7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bo7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bcps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bcps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\p7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\p7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\x7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\x7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\u7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\u7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bdps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bdps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bgps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bgps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bx7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bx7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bl7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bl7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bw7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bw7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bk7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bk7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bh7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bh7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bg7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bg7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bc7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bc7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\d7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\d7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bops.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bops.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\pps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\pps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bzpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bzpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bbpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bbpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\h7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\h7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bkps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bkps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\bsps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\bsps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\aang.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\aang.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\hps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\hps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\l7c.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\l7c.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\xps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\xps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\wpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\wpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\spc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\spc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\side_nav_bar.xml",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\cpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\cpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\dps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\dps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\kpc.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\kpc.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\tps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\tps.png"
+    },
+    {
+        "merged": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\lps.png",
+        "source": "C:\\Users\\damian\\Desktop\\android\\Globalscout\\app\\src\\main\\res\\drawable-ldpi\\lps.png"
+    }
+]
