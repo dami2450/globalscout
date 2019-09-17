@@ -118,772 +118,452 @@ public class PreferenciasActivity extends AppCompatActivity implements Navigatio
         imagenParelinofu = (ImageView) findViewById(R.id.imagenparelinofu);
         checkBoxCaracol = (CheckBox) findViewById(R.id.checkBoxCaracol);
         imagenCaracol = (ImageView) findViewById(R.id.imagencaracol);
-        checkBoxMurcielago.setChecked(MainActivity.esClaveIncluida(MainActivity.MURCIELAGO,this));
-        checkBoxDameTuPico.setChecked(MainActivity.esClaveIncluida(MainActivity.DAME_TU_PICO,this));
-        checkBoxNumerica.setChecked(MainActivity.esClaveIncluida(MainActivity.NUMERICA,this));
-        checkBoxInvertida.setChecked(MainActivity.esClaveIncluida(MainActivity.INVERTIDA,this));
-        checkBoxBadenPowell.setChecked(MainActivity.esClaveIncluida(MainActivity.BADEN_POWELL,this));
-        checkBoxMorse.setChecked(MainActivity.esClaveIncluida(MainActivity.MORSE,this));
-        checkBoxMasUno.setChecked(MainActivity.esClaveIncluida(MainActivity.MAS1,this));
-        checkBoxMenosUno.setChecked(MainActivity.esClaveIncluida(MainActivity.MENOS1,this));
-        checkBoxAgujerito.setChecked(MainActivity.esClaveIncluida(MainActivity.AGUJERITO,this));
-        checkBoxCenitPolar.setChecked(MainActivity.esClaveIncluida(MainActivity.CENIT_POLAR,this));
-        checkBoxNeumatico.setChecked(MainActivity.esClaveIncluida(MainActivity.NEUMATICO,this));
-        checkBoxRomana.setChecked(MainActivity.esClaveIncluida(MainActivity.ROMANA,this));
-        checkBoxSufamelico.setChecked(MainActivity.esClaveIncluida(MainActivity.SUFAMELICO,this));
-        checkBoxLapiznegro.setChecked(MainActivity.esClaveIncluida(MainActivity.LAPIZ_NEGRO,this));
-        checkBoxHuerfanito.setChecked(MainActivity.esClaveIncluida(MainActivity.HUERFANITO,this));
-        checkBoxOrquidea.setChecked(MainActivity.esClaveIncluida(MainActivity.ORQUIDEA,this));
-        checkBoxJulioCesar.setChecked(MainActivity.esClaveIncluida(MainActivity.JULIO_CESAR,this));
-        checkBoxAbuelito.setChecked(MainActivity.esClaveIncluida(MainActivity.ABUELITO,this));
-        checkBoxEucalipto.setChecked(MainActivity.esClaveIncluida(MainActivity.EUCALIPTO,this));
-        checkBoxHombre.setChecked(MainActivity.esClaveIncluida(MainActivity.HOMBRE,this));
-        checkBoxAlReves.setChecked(MainActivity.esClaveIncluida(MainActivity.AL_REVES,this));
-        checkBoxReinado.setChecked(MainActivity.esClaveIncluida(MainActivity.REINADO,this));
-        checkBoxDonMatias.setChecked(MainActivity.esClaveIncluida(MainActivity.DON_MATIAS,this));
-        checkBoxCalendario.setChecked(MainActivity.esClaveIncluida(MainActivity.CALENDARIO,this));
-        checkBoxSieteCruces.setChecked(MainActivity.esClaveIncluida(MainActivity.SIETE_CRUCES,this));
-        checkBoxParrillaSimple.setChecked(MainActivity.esClaveIncluida(MainActivity.PARRILLA_SIMPLE,this));
-        checkBoxParrillaCompuesta.setChecked(MainActivity.esClaveIncluida(MainActivity.PARRILLA_COMPUESTA,this));
-        checkBoxVocal.setChecked(MainActivity.esClaveIncluida(MainActivity.VOCAL,this));
-        checkBoxAngulo.setChecked(MainActivity.esClaveIncluida(MainActivity.ANGULO,this));
-        checkBoxPZ.setChecked(MainActivity.esClaveIncluida(MainActivity.PZ,this));
-        checkBoxParelinofu.setChecked(MainActivity.esClaveIncluida(MainActivity.PARELINOFU,this));
-        checkBoxCaracol.setChecked(MainActivity.esClaveIncluida(MainActivity.CARACOL,this));
+        checkBoxMurcielago.setChecked(Constantes.esClaveIncluida(Constantes.MURCIELAGO,this));
+        checkBoxDameTuPico.setChecked(Constantes.esClaveIncluida(Constantes.DAME_TU_PICO,this));
+        checkBoxNumerica.setChecked(Constantes.esClaveIncluida(Constantes.NUMERICA,this));
+        checkBoxInvertida.setChecked(Constantes.esClaveIncluida(Constantes.INVERTIDA,this));
+        checkBoxBadenPowell.setChecked(Constantes.esClaveIncluida(Constantes.BADEN_POWELL,this));
+        checkBoxMorse.setChecked(Constantes.esClaveIncluida(Constantes.MORSE,this));
+        checkBoxMasUno.setChecked(Constantes.esClaveIncluida(Constantes.MAS1,this));
+        checkBoxMenosUno.setChecked(Constantes.esClaveIncluida(Constantes.MENOS1,this));
+        checkBoxAgujerito.setChecked(Constantes.esClaveIncluida(Constantes.AGUJERITO,this));
+        checkBoxCenitPolar.setChecked(Constantes.esClaveIncluida(Constantes.CENIT_POLAR,this));
+        checkBoxNeumatico.setChecked(Constantes.esClaveIncluida(Constantes.NEUMATICO,this));
+        checkBoxRomana.setChecked(Constantes.esClaveIncluida(Constantes.ROMANA,this));
+        checkBoxSufamelico.setChecked(Constantes.esClaveIncluida(Constantes.SUFAMELICO,this));
+        checkBoxLapiznegro.setChecked(Constantes.esClaveIncluida(Constantes.LAPIZ_NEGRO,this));
+        checkBoxHuerfanito.setChecked(Constantes.esClaveIncluida(Constantes.HUERFANITO,this));
+        checkBoxOrquidea.setChecked(Constantes.esClaveIncluida(Constantes.ORQUIDEA,this));
+        checkBoxJulioCesar.setChecked(Constantes.esClaveIncluida(Constantes.JULIO_CESAR,this));
+        checkBoxAbuelito.setChecked(Constantes.esClaveIncluida(Constantes.ABUELITO,this));
+        checkBoxEucalipto.setChecked(Constantes.esClaveIncluida(Constantes.EUCALIPTO,this));
+        checkBoxHombre.setChecked(Constantes.esClaveIncluida(Constantes.HOMBRE,this));
+        checkBoxAlReves.setChecked(Constantes.esClaveIncluida(Constantes.AL_REVES,this));
+        checkBoxReinado.setChecked(Constantes.esClaveIncluida(Constantes.REINADO,this));
+        checkBoxDonMatias.setChecked(Constantes.esClaveIncluida(Constantes.DON_MATIAS,this));
+        checkBoxCalendario.setChecked(Constantes.esClaveIncluida(Constantes.CALENDARIO,this));
+        checkBoxSieteCruces.setChecked(Constantes.esClaveIncluida(Constantes.SIETE_CRUCES,this));
+        checkBoxParrillaSimple.setChecked(Constantes.esClaveIncluida(Constantes.PARRILLA_SIMPLE,this));
+        checkBoxParrillaCompuesta.setChecked(Constantes.esClaveIncluida(Constantes.PARRILLA_COMPUESTA,this));
+        checkBoxVocal.setChecked(Constantes.esClaveIncluida(Constantes.VOCAL,this));
+        checkBoxAngulo.setChecked(Constantes.esClaveIncluida(Constantes.ANGULO,this));
+        checkBoxPZ.setChecked(Constantes.esClaveIncluida(Constantes.PZ,this));
+        checkBoxParelinofu.setChecked(Constantes.esClaveIncluida(Constantes.PARELINOFU,this));
+        checkBoxCaracol.setChecked(Constantes.esClaveIncluida(Constantes.CARACOL,this));
         checkBoxMurcielago.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxMurcielago.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.MURCIELAGO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxMurcielago,PreferenciasActivity.this,Constantes.MURCIELAGO);
             }
         });
         imagenMurcielago.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.MURCIELAGO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.MURCIELAGO,PreferenciasActivity.this);
-                    checkBoxMurcielago.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.MURCIELAGO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.MURCIELAGO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxMurcielago,PreferenciasActivity.this,Constantes.MURCIELAGO);
             }
         });
         checkBoxDameTuPico.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxDameTuPico.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.DAME_TU_PICO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxDameTuPico,PreferenciasActivity.this,Constantes.DAME_TU_PICO);
             }
         });
         imagenDameTuPico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.DAME_TU_PICO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.DAME_TU_PICO,PreferenciasActivity.this);
-                    checkBoxDameTuPico.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.DAME_TU_PICO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.DAME_TU_PICO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxDameTuPico,PreferenciasActivity.this,Constantes.DAME_TU_PICO);
             }
         });
         checkBoxNumerica.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxNumerica.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.NUMERICA,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxNumerica,PreferenciasActivity.this,Constantes.NUMERICA);
             }
         });
         imagenNumerica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.NUMERICA,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.NUMERICA,PreferenciasActivity.this);
-                    checkBoxNumerica.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.NUMERICA,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.NUMERICA,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxNumerica,PreferenciasActivity.this,Constantes.NUMERICA);
             }
         });
         checkBoxInvertida.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxInvertida.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.INVERTIDA,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxInvertida,PreferenciasActivity.this,Constantes.INVERTIDA);
             }
         });
         imagenInvertida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.INVERTIDA,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.INVERTIDA,PreferenciasActivity.this);
-                    checkBoxInvertida.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.INVERTIDA,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.INVERTIDA,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxInvertida,PreferenciasActivity.this,Constantes.INVERTIDA);
             }
         });
         checkBoxBadenPowell.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxBadenPowell.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.BADEN_POWELL,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxBadenPowell,PreferenciasActivity.this,Constantes.BADEN_POWELL);
             }
         });
         imagenBadenPowell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.BADEN_POWELL,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.BADEN_POWELL,PreferenciasActivity.this);
-                    checkBoxBadenPowell.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.BADEN_POWELL,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.BADEN_POWELL,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxBadenPowell,PreferenciasActivity.this,Constantes.BADEN_POWELL);
             }
         });
         checkBoxMorse.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxMorse.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.MORSE,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxMorse,PreferenciasActivity.this,Constantes.MORSE);
             }
         });
         imagenMorse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.MORSE,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.MORSE,PreferenciasActivity.this);
-                    checkBoxMorse.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.MORSE,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.MORSE,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxMorse,PreferenciasActivity.this,Constantes.MORSE);
             }
         });
         checkBoxMasUno.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxMasUno.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.MAS1,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxMasUno,PreferenciasActivity.this,Constantes.MAS1);
             }
         });
         imagenMasUno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.MAS1,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.MAS1,PreferenciasActivity.this);
-                    checkBoxMasUno.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.MAS1,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.MAS1,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxMasUno,PreferenciasActivity.this,Constantes.MAS1);
             }
         });
         checkBoxMenosUno.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxMenosUno.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.MENOS1,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxMenosUno,PreferenciasActivity.this,Constantes.MENOS1);
             }
         });
         imagenMenosUno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.MENOS1,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.MENOS1,PreferenciasActivity.this);
-                    checkBoxMenosUno.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.MENOS1,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.MENOS1,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxMenosUno,PreferenciasActivity.this,Constantes.MENOS1);
             }
         });
         checkBoxAgujerito.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxAgujerito.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.AGUJERITO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxAgujerito,PreferenciasActivity.this,Constantes.AGUJERITO);
             }
         });
         imagenAgujerito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.AGUJERITO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.AGUJERITO,PreferenciasActivity.this);
-                    checkBoxAgujerito.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.AGUJERITO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.AGUJERITO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxAgujerito,PreferenciasActivity.this,Constantes.AGUJERITO);
             }
         });
         checkBoxCenitPolar.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxCenitPolar.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.CENIT_POLAR,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxCenitPolar,PreferenciasActivity.this,Constantes.CENIT_POLAR);
             }
         });
         imagenCenitPolar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.CENIT_POLAR,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.CENIT_POLAR,PreferenciasActivity.this);
-                    checkBoxCenitPolar.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.CENIT_POLAR,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.CENIT_POLAR,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxCenitPolar,PreferenciasActivity.this,Constantes.CENIT_POLAR);
             }
         });
         checkBoxNeumatico.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxNeumatico.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.NEUMATICO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxNeumatico,PreferenciasActivity.this,Constantes.NEUMATICO);
             }
         });
         imagenNeumatico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.NEUMATICO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.NEUMATICO,PreferenciasActivity.this);
-                    checkBoxNeumatico.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.NEUMATICO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.NEUMATICO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxNeumatico,PreferenciasActivity.this,Constantes.NEUMATICO);
             }
         });
         checkBoxRomana.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxRomana.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.ROMANA,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxRomana,PreferenciasActivity.this,Constantes.ROMANA);
             }
         });
         imagenRomana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.ROMANA,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.ROMANA,PreferenciasActivity.this);
-                    checkBoxRomana.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.ROMANA,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.ROMANA,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxRomana,PreferenciasActivity.this,Constantes.ROMANA);
             }
         });
         checkBoxSufamelico.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxSufamelico.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.SUFAMELICO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxSufamelico,PreferenciasActivity.this,Constantes.SUFAMELICO);
             }
         });
         imagenSufamelico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.SUFAMELICO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.SUFAMELICO,PreferenciasActivity.this);
-                    checkBoxSufamelico.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.SUFAMELICO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.SUFAMELICO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxSufamelico,PreferenciasActivity.this,Constantes.SUFAMELICO);
             }
         });
         checkBoxLapiznegro.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxLapiznegro.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.LAPIZ_NEGRO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxLapiznegro,PreferenciasActivity.this,Constantes.LAPIZ_NEGRO);
             }
         });
         imagenLapiznegro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.LAPIZ_NEGRO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.LAPIZ_NEGRO,PreferenciasActivity.this);
-                    checkBoxLapiznegro.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.LAPIZ_NEGRO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.LAPIZ_NEGRO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxLapiznegro,PreferenciasActivity.this,Constantes.LAPIZ_NEGRO);
             }
         });
         checkBoxHuerfanito.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxHuerfanito.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.HUERFANITO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxHuerfanito,PreferenciasActivity.this,Constantes.HUERFANITO);
             }
         });
         imagenHuerfanito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.HUERFANITO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.HUERFANITO,PreferenciasActivity.this);
-                    checkBoxHuerfanito.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.HUERFANITO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.HUERFANITO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxHuerfanito,PreferenciasActivity.this,Constantes.HUERFANITO);
             }
         });
         checkBoxOrquidea.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxOrquidea.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.ORQUIDEA,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxOrquidea,PreferenciasActivity.this,Constantes.ORQUIDEA);
             }
         });
         imagenOrquidea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.ORQUIDEA,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.ORQUIDEA,PreferenciasActivity.this);
-                    checkBoxOrquidea.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.ORQUIDEA,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.ORQUIDEA,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxOrquidea,PreferenciasActivity.this,Constantes.ORQUIDEA);
             }
         });
         checkBoxJulioCesar.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxJulioCesar.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.JULIO_CESAR,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxJulioCesar,PreferenciasActivity.this,Constantes.JULIO_CESAR);
             }
         });
         imagenJulioCesar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.JULIO_CESAR,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.JULIO_CESAR,PreferenciasActivity.this);
-                    checkBoxJulioCesar.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.JULIO_CESAR,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.JULIO_CESAR,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxJulioCesar,PreferenciasActivity.this,Constantes.JULIO_CESAR);
             }
         });
         checkBoxAbuelito.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxAbuelito.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.ABUELITO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxAbuelito,PreferenciasActivity.this,Constantes.ABUELITO);
             }
         });
         imagenAbuelito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.ABUELITO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.ABUELITO,PreferenciasActivity.this);
-                    checkBoxAbuelito.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.ABUELITO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.ABUELITO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxAbuelito,PreferenciasActivity.this,Constantes.ABUELITO);
             }
         });
         checkBoxEucalipto.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxEucalipto.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.EUCALIPTO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxEucalipto,PreferenciasActivity.this,Constantes.EUCALIPTO);
             }
         });
         imagenEucalipto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.EUCALIPTO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.EUCALIPTO,PreferenciasActivity.this);
-                    checkBoxEucalipto.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.EUCALIPTO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.EUCALIPTO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxEucalipto,PreferenciasActivity.this,Constantes.EUCALIPTO);
             }
         });
         checkBoxHombre.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxHombre.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.HOMBRE,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxHombre,PreferenciasActivity.this,Constantes.HOMBRE);
             }
         });
         imagenHombre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.HOMBRE,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.HOMBRE,PreferenciasActivity.this);
-                    checkBoxHombre.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.HOMBRE,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.HOMBRE,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxHombre,PreferenciasActivity.this,Constantes.HOMBRE);
             }
         });
         checkBoxAlReves.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxAlReves.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.AL_REVES,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxAlReves,PreferenciasActivity.this,Constantes.AL_REVES);
             }
         });
         imagenAlReves.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.AL_REVES,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.AL_REVES,PreferenciasActivity.this);
-                    checkBoxAlReves.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.AL_REVES,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.AL_REVES,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxAlReves,PreferenciasActivity.this,Constantes.AL_REVES);
             }
         });
         checkBoxReinado.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxReinado.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.REINADO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxReinado,PreferenciasActivity.this,Constantes.REINADO);
             }
         });
         imagenReinado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.REINADO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.REINADO,PreferenciasActivity.this);
-                    checkBoxReinado.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.REINADO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.REINADO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxReinado,PreferenciasActivity.this,Constantes.REINADO);
             }
         });
         checkBoxDonMatias.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxDonMatias.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.DON_MATIAS,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxDonMatias,PreferenciasActivity.this,Constantes.DON_MATIAS);
             }
         });
         imagenDonMatias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.DON_MATIAS,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.DON_MATIAS,PreferenciasActivity.this);
-                    checkBoxDonMatias.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.DON_MATIAS,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.DON_MATIAS,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxDonMatias,PreferenciasActivity.this,Constantes.DON_MATIAS);
             }
         });
         checkBoxCalendario.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxCalendario.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.CALENDARIO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxCalendario,PreferenciasActivity.this,Constantes.CALENDARIO);
             }
         });
         imagenCalendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.CALENDARIO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.CALENDARIO,PreferenciasActivity.this);
-                    checkBoxCalendario.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.CALENDARIO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.CALENDARIO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxCalendario,PreferenciasActivity.this,Constantes.CALENDARIO);
             }
         });
         checkBoxSieteCruces.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxSieteCruces.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.SIETE_CRUCES,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxSieteCruces,PreferenciasActivity.this,Constantes.SIETE_CRUCES);
             }
         });
         imagenSieteCruces.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.SIETE_CRUCES,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.SIETE_CRUCES,PreferenciasActivity.this);
-                    checkBoxSieteCruces.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.SIETE_CRUCES,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.SIETE_CRUCES,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxSieteCruces,PreferenciasActivity.this,Constantes.SIETE_CRUCES);
             }
         });
         checkBoxParrillaSimple.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxParrillaSimple.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.PARRILLA_SIMPLE,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxParrillaSimple,PreferenciasActivity.this,Constantes.PARRILLA_SIMPLE);
             }
         });
         imagenParrillaSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.PARRILLA_SIMPLE,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.PARRILLA_SIMPLE,PreferenciasActivity.this);
-                    checkBoxParrillaSimple.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.PARRILLA_SIMPLE,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.PARRILLA_SIMPLE,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxParrillaSimple,PreferenciasActivity.this,Constantes.PARRILLA_SIMPLE);
             }
         });
         checkBoxParrillaCompuesta.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxParrillaCompuesta.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.PARRILLA_COMPUESTA,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxParrillaCompuesta, PreferenciasActivity.this,Constantes.PARRILLA_COMPUESTA);
             }
         });
         imagenParrillaCompuesta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.PARRILLA_COMPUESTA,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.PARRILLA_COMPUESTA,PreferenciasActivity.this);
-                    checkBoxParrillaCompuesta.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.PARRILLA_COMPUESTA,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.PARRILLA_COMPUESTA,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxParrillaCompuesta,PreferenciasActivity.this,Constantes.PARRILLA_COMPUESTA);
             }
         });
         checkBoxVocal.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxVocal.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.VOCAL,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxVocal, PreferenciasActivity.this,Constantes.VOCAL);
             }
         });
         imagenVocal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.VOCAL,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.VOCAL,PreferenciasActivity.this);
-                    checkBoxVocal.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.VOCAL,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.VOCAL,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxVocal,PreferenciasActivity.this,Constantes.VOCAL);
             }
         });
         checkBoxAngulo.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxAngulo.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.ANGULO,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxAngulo, PreferenciasActivity.this,Constantes.ANGULO);
             }
         });
         imagenAngulo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.ANGULO,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.ANGULO,PreferenciasActivity.this);
-                    checkBoxAngulo.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.ANGULO,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.ANGULO,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxAngulo,PreferenciasActivity.this,Constantes.ANGULO);
             }
         });
         checkBoxPZ.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxPZ.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.PZ,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxPZ, PreferenciasActivity.this,Constantes.PZ);
             }
         });
         imagenPZ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.PZ,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.PZ,PreferenciasActivity.this);
-                    checkBoxPZ.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.PZ,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.PZ,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxPZ,PreferenciasActivity.this,Constantes.PZ);
             }
         });
         checkBoxParelinofu.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxParelinofu.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.PARELINOFU,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxParelinofu, PreferenciasActivity.this,Constantes.PARELINOFU);
             }
         });
         imagenParelinofu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.PARELINOFU,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.PARELINOFU,PreferenciasActivity.this);
-                    checkBoxParelinofu.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.PARELINOFU,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.PARELINOFU,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxParelinofu,PreferenciasActivity.this,Constantes.PARELINOFU);
             }
         });
         checkBoxCaracol.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(!isChecked && MainActivity.clavesValidas.size() == 1){
-                    checkBoxCaracol.setChecked(true);
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    MainActivity.incluirClave(MainActivity.CARACOL,isChecked,PreferenciasActivity.this);
-                }
+                Constantes.bloquearDesbloquarClave(isChecked,checkBoxCaracol, PreferenciasActivity.this,Constantes.CARACOL);
             }
         });
         imagenCaracol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(MainActivity.esClaveIncluida(MainActivity.CARACOL,PreferenciasActivity.this) && MainActivity.clavesValidas.size() == 1){
-                    Toast.makeText(PreferenciasActivity.this, "No se pueden bloquear todas las claves", Toast.LENGTH_LONG).show();
-                }else{
-                    boolean incluida = MainActivity.esClaveIncluida(MainActivity.CARACOL,PreferenciasActivity.this);
-                    checkBoxCaracol.setChecked(!incluida);
-                    MainActivity.incluirClave(MainActivity.CARACOL,!incluida,PreferenciasActivity.this);
-                }
+                boolean incluida = Constantes.esClaveIncluida(Constantes.CARACOL,PreferenciasActivity.this);
+                Constantes.bloquearDesbloquarClave(!incluida,checkBoxCaracol,PreferenciasActivity.this,Constantes.CARACOL);
             }
         });
     }
@@ -894,25 +574,25 @@ public class PreferenciasActivity extends AppCompatActivity implements Navigatio
         finish();
         switch (id) {
             case R.id.menuSemaforo:
-                MainActivity.semaforo(this);
+                Constantes.semaforo(this);
                 return true;
             case R.id.menuLinterna:
-                MainActivity.linternaMorse(this);
+                Constantes.linternaMorse(this);
                 return true;
             case R.id.menuTeclado:
-                MainActivity.tecladoEspecial(this);
+                Constantes.tecladoEspecial(this);
                 return true;
             case R.id.menuGuia:
-                MainActivity.guiaClaves(this);
+                Constantes.guiaClaves(this);
                 return true;
             case R.id.menuDoble:
-                MainActivity.clavesDobles(this);
+                Constantes.clavesDobles(this);
                 return true;
             case R.id.menuTriple:
-                MainActivity.clavesTriple(this);
+                Constantes.clavesTriple(this);
                 return true;
             case R.id.menuJuego:
-                MainActivity.iniciarJuego(this);
+                Constantes.iniciarJuego(this);
                 return true;
             default:
                 return true;

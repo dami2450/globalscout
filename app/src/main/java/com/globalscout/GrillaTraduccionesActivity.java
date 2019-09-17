@@ -49,8 +49,8 @@ public class GrillaTraduccionesActivity extends Activity {
         setContentView(R.layout.activity_lista_traducciones);
         TextView mensajeError = (TextView) findViewById(R.id.mensajeError);
         ListView listaTraducciones = (ListView) findViewById(R.id.listaTraducciones);
-        String texto = getIntent().getStringExtra(MainActivity.TEXTO);
-        if(MainActivity.clavesPosibles.size() > 0){
+        String texto = getIntent().getStringExtra(Constantes.TEXTO);
+        if(Constantes.clavesPosibles.size() > 0){
             mensajeError.setVisibility(View.GONE);
             listaTraducciones.setVisibility(View.VISIBLE);
             listaTraducciones.setAdapter(new AdaptadorListaTraducciones(this, texto));

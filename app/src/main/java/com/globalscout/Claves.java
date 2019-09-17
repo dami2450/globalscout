@@ -1839,18 +1839,18 @@ public class Claves {
         Random rnd = new Random();
         int random;
         int pos;
-        if(MainActivity.esClaveIncluida(MainActivity.CARACOL,context)){
+        if(Constantes.esClaveIncluida(Constantes.CARACOL,context)){
             pos = 1;
         }else{
             pos = 0;
         }
-        random = (int) (rnd.nextDouble() * (MainActivity.clavesValidas.size()-pos));
+        random = (int) (rnd.nextDouble() * (Constantes.clavesValidas.size()-pos));
         int random2 = (int) (rnd.nextDouble() * 4 + 7);
         int espacios;
         String aux;
         while (a < b) {
             while (random == anterior) {
-                random = (int) (rnd.nextDouble() * (MainActivity.clavesValidas.size()-pos));
+                random = (int) (rnd.nextDouble() * (Constantes.clavesValidas.size()-pos));
             }
             while (random2 == anterior2) {
                 random2 = (int) (rnd.nextDouble() * 4 + 7);
@@ -1866,124 +1866,124 @@ public class Claves {
                 }
                 a = a + 1;
             }
-            switch (MainActivity.clavesValidas.get(random)) {
-                case (MainActivity.MURCIELAGO):
+            switch (Constantes.clavesValidas.get(random)) {
+                case (Constantes.MURCIELAGO):
                     mensaje = mensaje + " murcielago,";
                     texto1 = texto1 + murcielago(aux);
                     break;
-                case (MainActivity.DAME_TU_PICO):
+                case (Constantes.DAME_TU_PICO):
                     mensaje = mensaje + " dame tu pico,";
                     texto1 = texto1 + dameTuPico(aux);
                     break;
-                case (MainActivity.NUMERICA):
+                case (Constantes.NUMERICA):
                     mensaje = mensaje + " numerica,";
                     texto1 = texto1 + numerica(aux);
                     break;
-                case (MainActivity.INVERTIDA):
+                case (Constantes.INVERTIDA):
                     mensaje = mensaje + " invertida,";
                     texto1 = texto1 + invertida(aux);
                     break;
-                case (MainActivity.BADEN_POWELL):
+                case (Constantes.BADEN_POWELL):
                     mensaje = mensaje + " baden powell,";
                     texto1 = texto1 + badenPowell(aux);
                     break;
-                case (MainActivity.MORSE):
+                case (Constantes.MORSE):
                     mensaje = mensaje + " morse,";
                     texto1 = texto1 + aMorse(aux);
                     break;
-                case (MainActivity.MAS1):
+                case (Constantes.MAS1):
                     mensaje = mensaje + " mas 1,";
                     texto1 = texto1 + M1(aux);
                     break;
-                case (MainActivity.MENOS1):
+                case (Constantes.MENOS1):
                     mensaje = mensaje + " menos 1,";
                     texto1 = texto1 + m1(aux);
                     break;
-                case (MainActivity.AGUJERITO):
+                case (Constantes.AGUJERITO):
                     mensaje = mensaje + " agujerito,";
                     texto1 = texto1 + agujerito(aux);
                     break;
-                case (MainActivity.CENIT_POLAR):
+                case (Constantes.CENIT_POLAR):
                     mensaje = mensaje + " cenit polar,";
                     texto1 = texto1 + cenitPolar(aux);
                     break;
-                case (MainActivity.ROMANA):
+                case (Constantes.ROMANA):
                     mensaje = mensaje + " romana,";
                     texto1 = texto1 + aRomana(aux);
                     break;
-                case (MainActivity.NEUMATICO):
+                case (Constantes.NEUMATICO):
                     mensaje = mensaje + " neumatico,";
                     texto1 = texto1 + neumatico(aux);
                     break;
-                case (MainActivity.SUFAMELICO):
+                case (Constantes.SUFAMELICO):
                     mensaje = mensaje + " sufamelico,";
                     texto1 = texto1 + sufamelico(aux);
                     break;
-                case (MainActivity.HUERFANITO):
+                case (Constantes.HUERFANITO):
                     mensaje = mensaje + " huerfanito,";
                     texto1 = texto1 + huerfanito(aux);
                     break;
-                case (MainActivity.ORQUIDEA):
+                case (Constantes.ORQUIDEA):
                     mensaje = mensaje + " orquidea,";
                     texto1 = texto1 + orquidea(aux);
                     break;
-                case (MainActivity.JULIO_CESAR):
+                case (Constantes.JULIO_CESAR):
                     mensaje = mensaje + " jilio cesar,";
                     texto1 = texto1 + julioCesar(aux);
                     break;
-                case (MainActivity.LAPIZ_NEGRO):
+                case (Constantes.LAPIZ_NEGRO):
                     mensaje = mensaje + " lapiz negro,";
                     texto1 = texto1 + lapizNegro(aux);
                     break;
-                case (MainActivity.ABUELITO):
+                case (Constantes.ABUELITO):
                     mensaje = mensaje + " abuelito,";
                     texto1 = texto1 + abuelito(aux);
                     break;
-                case (MainActivity.EUCALIPTO):
+                case (Constantes.EUCALIPTO):
                     mensaje = mensaje + " eucalipto,";
                     texto1 = texto1 + eucalipto(aux);
                     break;
-                case (MainActivity.HOMBRE):
+                case (Constantes.HOMBRE):
                     mensaje = mensaje + " hombre,";
                     texto1 = texto1 + aHombre(aux);
                     break;
-                case (MainActivity.AL_REVES):
+                case (Constantes.AL_REVES):
                     mensaje = mensaje + " al reves,";
                     texto1 = texto1 + alReves(aux);
                     break;
-                case (MainActivity.REINADO):
+                case (Constantes.REINADO):
                     mensaje = mensaje + " reinado,";
                     texto1 = texto1 + reinado(aux);
                     break;
-                case (MainActivity.DON_MATIAS):
+                case (Constantes.DON_MATIAS):
                     mensaje = mensaje + " don matias,";
                     texto1 = texto1 + donMatias(aux);
                     break;
-                case (MainActivity.SIETE_CRUCES):
+                case (Constantes.SIETE_CRUCES):
                     mensaje = mensaje + " siete cruces,";
                     texto1 = texto1 + a7Cruces(aux);
                     break;
-                case (MainActivity.PARRILLA_SIMPLE):
+                case (Constantes.PARRILLA_SIMPLE):
                     mensaje = mensaje + " parrilla simple,";
                     texto1 = texto1 + aParrillaSimple(aux);
                     break;
-                case (MainActivity.PARRILLA_COMPUESTA):
+                case (Constantes.PARRILLA_COMPUESTA):
                     mensaje = mensaje + " parrilla compuesta,";
                     texto1 = texto1 + aParrillaCompuesta(aux);
                     break;
-                case (MainActivity.VOCAL):
+                case (Constantes.VOCAL):
                     mensaje = mensaje + " vocal,";
                     texto1 = texto1 + vocal(aux);
                     break;
-                case (MainActivity.ANGULO):
+                case (Constantes.ANGULO):
                     mensaje = mensaje + " angulo,";
                     texto1 = texto1 + aAngulo(aux);
                     break;
-                case (MainActivity.PZ):
+                case (Constantes.PZ):
                     mensaje = mensaje + " pz,";
                     texto1 = texto1 + aPZ(aux);
                     break;
-                case (MainActivity.PARELINOFU):
+                case (Constantes.PARELINOFU):
                     mensaje = mensaje + " parelinofu,";
                     texto1 = texto1 + parelinofu(aux);
                     break;

@@ -22,6 +22,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,11 +32,12 @@ import java.util.Map;
 public class TraduccionActivity extends AppCompatActivity {
     EditText textoATraducir;
     String traduccion, anterior;
-    TextView textoTraducido, caracolizado;
+    TextView textoTraducido, caracolizado, historial1, historialCodigo1, historial2, historialCodigo2, historial3, historialCodigo3, historial4, historialCodigo4, historial5, historialCodigo5, historial6, historialCodigo6, historial7, historialCodigo7, historial8, historialCodigo8, historial9, historialCodigo9, historial10, historialCodigo10;
     HorizontalScrollView contenedorCaracol;
     boolean codificacion = true;
     int clave;
     String textoDato;
+    LinearLayout contenerHistorial1, contenerHistorial2, contenerHistorial3, contenerHistorial4, contenerHistorial5, contenerHistorial6, contenerHistorial7, contenerHistorial8, contenerHistorial9, contenerHistorial10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,167 +45,197 @@ public class TraduccionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_traduccion);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        clave = getIntent().getIntExtra(MainActivity.CLAVE,0);
-        textoDato = getIntent().getStringExtra(MainActivity.TEXTO);
+        clave = getIntent().getIntExtra(Constantes.CLAVE,0);
+        textoDato = getIntent().getStringExtra(Constantes.TEXTO);
         textoATraducir = (EditText) findViewById(R.id.textoATraducir);
         textoTraducido = (TextView) findViewById(R.id.traduccion);
+        historial1 = (TextView) findViewById(R.id.historial1);
+        historial2 = (TextView) findViewById(R.id.historial2);
+        historial3 = (TextView) findViewById(R.id.historial3);
+        historial4 = (TextView) findViewById(R.id.historial4);
+        historial5 = (TextView) findViewById(R.id.historial5);
+        historial6 = (TextView) findViewById(R.id.historial6);
+        historial7 = (TextView) findViewById(R.id.historial7);
+        historial8 = (TextView) findViewById(R.id.historial8);
+        historial9 = (TextView) findViewById(R.id.historial9);
+        historial10 = (TextView) findViewById(R.id.historial10);
+        historialCodigo1 = (TextView) findViewById(R.id.historialcodigo1);
+        historialCodigo2 = (TextView) findViewById(R.id.historialcodigo2);
+        historialCodigo3 = (TextView) findViewById(R.id.historialcodigo3);
+        historialCodigo4 = (TextView) findViewById(R.id.historialcodigo4);
+        historialCodigo5 = (TextView) findViewById(R.id.historialcodigo5);
+        historialCodigo6 = (TextView) findViewById(R.id.historialcodigo6);
+        historialCodigo7 = (TextView) findViewById(R.id.historialcodigo7);
+        historialCodigo8 = (TextView) findViewById(R.id.historialcodigo8);
+        historialCodigo9 = (TextView) findViewById(R.id.historialcodigo9);
+        historialCodigo10 = (TextView) findViewById(R.id.historialcodigo10);
+        contenerHistorial1 = (LinearLayout) findViewById(R.id.contenedorHistorial1);
+        contenerHistorial2 = (LinearLayout) findViewById(R.id.contenedorHistorial2);
+        contenerHistorial3 = (LinearLayout) findViewById(R.id.contenedorHistorial3);
+        contenerHistorial4 = (LinearLayout) findViewById(R.id.contenedorHistorial4);
+        contenerHistorial5 = (LinearLayout) findViewById(R.id.contenedorHistorial5);
+        contenerHistorial6 = (LinearLayout) findViewById(R.id.contenedorHistorial6);
+        contenerHistorial7 = (LinearLayout) findViewById(R.id.contenedorHistorial7);
+        contenerHistorial8 = (LinearLayout) findViewById(R.id.contenedorHistorial8);
+        contenerHistorial9 = (LinearLayout) findViewById(R.id.contenedorHistorial9);
+        contenerHistorial10 = (LinearLayout) findViewById(R.id.contenedorHistorial10);
         switch (clave){
-            case MainActivity.MURCIELAGO:
+            case Constantes.MURCIELAGO:
                 getSupportActionBar().setTitle("Murcielago");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.DAME_TU_PICO:
+            case Constantes.DAME_TU_PICO:
                 getSupportActionBar().setTitle("Dame tu pico");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.NUMERICA:
+            case Constantes.NUMERICA:
                 getSupportActionBar().setTitle("Numerica");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.INVERTIDA:
+            case Constantes.INVERTIDA:
                 getSupportActionBar().setTitle("Invertida");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.BADEN_POWELL:
+            case Constantes.BADEN_POWELL:
                 getSupportActionBar().setTitle("Baden Powell");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.MORSE:
+            case Constantes.MORSE:
                 getSupportActionBar().setTitle("Morse");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.MAS1:
+            case Constantes.MAS1:
                 getSupportActionBar().setTitle("+1");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.MENOS1:
+            case Constantes.MENOS1:
                 getSupportActionBar().setTitle("-1");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.AGUJERITO:
+            case Constantes.AGUJERITO:
                 getSupportActionBar().setTitle("Agujerito");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.CENIT_POLAR:
+            case Constantes.CENIT_POLAR:
                 getSupportActionBar().setTitle("Cenit Polar");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.ROMANA:
+            case Constantes.ROMANA:
                 getSupportActionBar().setTitle("Romana");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.NEUMATICO:
+            case Constantes.NEUMATICO:
                 getSupportActionBar().setTitle("Neumatico");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.SUFAMELICO:
+            case Constantes.SUFAMELICO:
                 getSupportActionBar().setTitle("Sufamelico");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.LAPIZ_NEGRO:
+            case Constantes.LAPIZ_NEGRO:
                 getSupportActionBar().setTitle("Lapiz Negro");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.HUERFANITO:
+            case Constantes.HUERFANITO:
                 getSupportActionBar().setTitle("Huerfanito");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.ORQUIDEA:
+            case Constantes.ORQUIDEA:
                 getSupportActionBar().setTitle("Orquidea");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.JULIO_CESAR:
+            case Constantes.JULIO_CESAR:
                 getSupportActionBar().setTitle("Julio Cesar");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.ABUELITO:
+            case Constantes.ABUELITO:
                 getSupportActionBar().setTitle("Abuelito");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.EUCALIPTO:
+            case Constantes.EUCALIPTO:
                 getSupportActionBar().setTitle("Eucalipto");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.HOMBRE:
+            case Constantes.HOMBRE:
                 getSupportActionBar().setTitle("Hombre");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
                 break;
-            case MainActivity.AL_REVES:
+            case Constantes.AL_REVES:
                 getSupportActionBar().setTitle("Al Reves");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.REINADO:
+            case Constantes.REINADO:
                 getSupportActionBar().setTitle("Reinado");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.DON_MATIAS:
+            case Constantes.DON_MATIAS:
                 getSupportActionBar().setTitle("Don Matias");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.CALENDARIO:
+            case Constantes.CALENDARIO:
                 getSupportActionBar().setTitle("Calendario");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.SIETE_CRUCES:
+            case Constantes.SIETE_CRUCES:
                 getSupportActionBar().setTitle("Siete Cruces");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
                 break;
-            case MainActivity.PARRILLA_SIMPLE:
+            case Constantes.PARRILLA_SIMPLE:
                 getSupportActionBar().setTitle("Parrilla Simple");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
                 break;
-            case MainActivity.PARRILLA_COMPUESTA:
+            case Constantes.PARRILLA_COMPUESTA:
                 getSupportActionBar().setTitle("Parrilla Compuesta");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
                 break;
-            case MainActivity.VOCAL:
+            case Constantes.VOCAL:
                 getSupportActionBar().setTitle("Vocal");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.ANGULO:
+            case Constantes.ANGULO:
                 getSupportActionBar().setTitle("Angulo");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
                 break;
-            case MainActivity.PZ:
+            case Constantes.PZ:
                 getSupportActionBar().setTitle("PZ");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.PARELINOFU:
+            case Constantes.PARELINOFU:
                 getSupportActionBar().setTitle("Parelinofu");
                 textoATraducir.setHint("Texto a traducir/codificar");
                 textoTraducido.setHint("codificacion/traduccion");
                 break;
-            case MainActivity.CARACOL:
+            case Constantes.CARACOL:
                 getSupportActionBar().setTitle("Caracol");
                 textoATraducir.setHint("Texto a codificar");
                 textoTraducido.setHint("codificacion");
@@ -217,7 +249,7 @@ public class TraduccionActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                traducir();
+                traducir(textoATraducir.getText().toString(),textoTraducido);
             }
 
             @Override
@@ -230,6 +262,86 @@ public class TraduccionActivity extends AppCompatActivity {
         caracolizado = (TextView) findViewById(R.id.caracolizado);
         if(textoDato != null && textoDato.length() > 0){
             textoATraducir.setText(textoDato);
+        }
+        armarHistorial(contenerHistorial1,Constantes.obtenerHistorial(1,this),historial1,historialCodigo1,1);
+        armarHistorial(contenerHistorial2,Constantes.obtenerHistorial(2,this),historial2,historialCodigo2,2);
+        armarHistorial(contenerHistorial3,Constantes.obtenerHistorial(3,this),historial3,historialCodigo3,3);
+        armarHistorial(contenerHistorial4,Constantes.obtenerHistorial(4,this),historial4,historialCodigo4,4);
+        armarHistorial(contenerHistorial5,Constantes.obtenerHistorial(5,this),historial5,historialCodigo5,5);
+        armarHistorial(contenerHistorial6,Constantes.obtenerHistorial(6,this),historial6,historialCodigo6,6);
+        armarHistorial(contenerHistorial7,Constantes.obtenerHistorial(7,this),historial7,historialCodigo7,7);
+        armarHistorial(contenerHistorial8,Constantes.obtenerHistorial(8,this),historial8,historialCodigo8,8);
+        armarHistorial(contenerHistorial9,Constantes.obtenerHistorial(9,this),historial9,historialCodigo9,9);
+        armarHistorial(contenerHistorial10,Constantes.obtenerHistorial(10,this),historial10,historialCodigo10,10);
+        contenerHistorial1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(1,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(2,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(3,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(4,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(5,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(6,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(7,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(8,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(9,TraduccionActivity.this));
+            }
+        });
+        contenerHistorial10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textoATraducir.setText(Constantes.obtenerHistorial(10,TraduccionActivity.this));
+            }
+        });
+    }
+
+    public void armarHistorial(LinearLayout contenedor, String texto, TextView textView1, TextView textView2, int codigo) {
+        if(texto != null && texto.length() > 0){
+            contenedor.setVisibility(View.VISIBLE);
+            textView1.setText(Constantes.obtenerHistorial(codigo,this));
+            traducir(textView1.getText().toString(),textView2);
+        }else{
+            contenedor.setVisibility(View.GONE);
         }
     }
 
@@ -245,111 +357,111 @@ public class TraduccionActivity extends AppCompatActivity {
         }
     }
 
-    public void traducir() {
+    public void traducir(String textoAux, TextView traducido) {
+        String texto = textoAux.toUpperCase() + "   ";
         contenedorCaracol.setVisibility(View.GONE);
-        String texto = textoATraducir.getText().toString().toUpperCase() + "  ";
         switch(clave){
-            case(MainActivity.MURCIELAGO):
+            case(Constantes.MURCIELAGO):
                 traduccion = Claves.murcielago(texto);
                 Log.v("probando", "traduccion:" + traduccion);
                 break;
-            case(MainActivity.DAME_TU_PICO):
+            case(Constantes.DAME_TU_PICO):
                 traduccion = Claves.dameTuPico(texto);
                 break;
-            case(MainActivity.NUMERICA):
+            case(Constantes.NUMERICA):
                 traduccion = Claves.numerica(texto);
                 break;
-            case(MainActivity.INVERTIDA):
+            case(Constantes.INVERTIDA):
                 traduccion = Claves.invertida(texto);
                 break;
-            case(MainActivity.BADEN_POWELL):
+            case(Constantes.BADEN_POWELL):
                 traduccion = Claves.badenPowell(texto);
                 break;
-            case(MainActivity.MORSE):
+            case(Constantes.MORSE):
                 traduccion = Claves.aODeMorse(texto);
                 break;
-            case(MainActivity.MAS1):
+            case(Constantes.MAS1):
                 traduccion = Claves.M1(texto);
                 break;
-            case(MainActivity.MENOS1):
+            case(Constantes.MENOS1):
                 traduccion = Claves.m1(texto);
                 break;
-            case(MainActivity.AGUJERITO):
+            case(Constantes.AGUJERITO):
                 traduccion = Claves.agujerito(texto);
                 break;
-            case(MainActivity.CENIT_POLAR):
+            case(Constantes.CENIT_POLAR):
                 traduccion = Claves.cenitPolar(texto);
                 break;
-            case(MainActivity.NEUMATICO):
+            case(Constantes.NEUMATICO):
                 traduccion = Claves.neumatico(texto);
                 break;
-            case(MainActivity.ROMANA):
+            case(Constantes.ROMANA):
                 traduccion = Claves.aODeRomana(texto);
                 break;
-            case(MainActivity.SUFAMELICO):
+            case(Constantes.SUFAMELICO):
                 traduccion = Claves.sufamelico(texto);
                 break;
-            case(MainActivity.LAPIZ_NEGRO):
+            case(Constantes.LAPIZ_NEGRO):
                 traduccion = Claves.lapizNegro(texto);
                 break;
-            case(MainActivity.HUERFANITO):
+            case(Constantes.HUERFANITO):
                 traduccion = Claves.huerfanito(texto);
                 break;
-            case(MainActivity.ORQUIDEA):
+            case(Constantes.ORQUIDEA):
                 traduccion = Claves.orquidea(texto);
                 break;
-            case(MainActivity.JULIO_CESAR):
+            case(Constantes.JULIO_CESAR):
                 traduccion = Claves.julioCesar(texto);
                 break;
-            case(MainActivity.ABUELITO):
+            case(Constantes.ABUELITO):
                 traduccion = Claves.abuelito(texto);
                 break;
-            case(MainActivity.EUCALIPTO):
+            case(Constantes.EUCALIPTO):
                 traduccion = Claves.eucalipto(texto);
                 break;
-            case(MainActivity.HOMBRE):
+            case(Constantes.HOMBRE):
                 traduccion = aODeHombre(texto);
                 break;
-            case(MainActivity.AL_REVES):
+            case(Constantes.AL_REVES):
                 traduccion = Claves.alReves(texto);
                 break;
-            case(MainActivity.REINADO):
+            case(Constantes.REINADO):
                 traduccion = Claves.reinado(texto);
                 break;
-            case(MainActivity.DON_MATIAS):
+            case(Constantes.DON_MATIAS):
                 traduccion = Claves.donMatias(texto);
                 break;
-            case(MainActivity.CALENDARIO):
+            case(Constantes.CALENDARIO):
                 traduccion = Claves.aODeCalendario(texto);
                 break;
-            case(MainActivity.SIETE_CRUCES):
+            case(Constantes.SIETE_CRUCES):
                 traduccion = Claves.a7Cruces(texto);
                 break;
-            case(MainActivity.PARRILLA_SIMPLE):
+            case(Constantes.PARRILLA_SIMPLE):
                 traduccion = Claves.aParrillaSimple(texto);
                 break;
-            case(MainActivity.PARRILLA_COMPUESTA):
+            case(Constantes.PARRILLA_COMPUESTA):
                 traduccion = Claves.aParrillaCompuesta(texto);
                 break;
-            case(MainActivity.VOCAL):
+            case(Constantes.VOCAL):
                 traduccion = Claves.vocal(texto);
                 break;
-            case(MainActivity.ANGULO):
+            case(Constantes.ANGULO):
                 traduccion = Claves.aAngulo(texto);
                 break;
-            case(MainActivity.PZ):
+            case(Constantes.PZ):
                 traduccion = Claves.aODePZ(texto);
                 break;
-            case(MainActivity.PARELINOFU):
+            case(Constantes.PARELINOFU):
                 traduccion = Claves.parelinofu(texto);
                 break;
-            case (MainActivity.CARACOL):
+            case (Constantes.CARACOL):
                 contenedorCaracol.setVisibility(View.VISIBLE);
                 caracolizado.setText(Claves.caracolizar(texto));
                 traduccion = "";
                 break;
         }
-        textoTraducido.setText(getSmiledText(traduccion));
+        traducido.setText(getSmiledText(traduccion));
     }
 
     public Spannable getSmiledText(String text) {
@@ -407,8 +519,8 @@ public class TraduccionActivity extends AppCompatActivity {
     public void onBackPressed() {
         Intent resultIntent = new Intent();
         Log.v("probando", "Texto: " + textoATraducir.getText().toString());
-        resultIntent.putExtra(MainActivity.TEXTO, textoATraducir.getText().toString());
-        resultIntent.putExtra(MainActivity.TRADUCCION, textoTraducido.getText().toString());
+        resultIntent.putExtra(Constantes.TEXTO, textoATraducir.getText().toString());
+        resultIntent.putExtra(Constantes.TRADUCCION, textoTraducido.getText().toString());
         setResult(RESULT_OK, resultIntent);
         finish();
     }

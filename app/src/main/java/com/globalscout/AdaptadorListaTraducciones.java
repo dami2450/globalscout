@@ -20,7 +20,7 @@ public class AdaptadorListaTraducciones extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return MainActivity.clavesPosibles.size();
+        return Constantes.clavesPosibles.size();
     }
 
     @Override
@@ -43,108 +43,108 @@ public class AdaptadorListaTraducciones extends BaseAdapter {
         vista_previaTraduccion = (TextView) row.findViewById(R.id.vista_previaTraduccion);
         String traduccionPosible = "";
         final int j = i;
-        switch (MainActivity.clavesPosibles.get(j)){
-            case MainActivity.MURCIELAGO:
+        switch (Constantes.clavesPosibles.get(j)){
+            case Constantes.MURCIELAGO:
                 titulo.setText("MURCIELAGO:");
                 traduccionPosible = Claves.murcielago(texto);
                 break;
-            case MainActivity.DAME_TU_PICO:
+            case Constantes.DAME_TU_PICO:
                 titulo.setText("DAME TU PICO:");
                 traduccionPosible = Claves.dameTuPico(texto);
                 break;
-            case MainActivity.NUMERICA:
+            case Constantes.NUMERICA:
                 titulo.setText("NUMERICA:");
                 traduccionPosible = Claves.numerica(texto);
                 break;
-            case MainActivity.INVERTIDA:
+            case Constantes.INVERTIDA:
                 titulo.setText("INVERTIDA:");
                 traduccionPosible = Claves.invertida(texto);
                 break;
-            case MainActivity.BADEN_POWELL:
+            case Constantes.BADEN_POWELL:
                 titulo.setText("BADEN POWELL:");
                 traduccionPosible = Claves.badenPowell(texto);
                 break;
-            case MainActivity.MORSE:
+            case Constantes.MORSE:
                 titulo.setText("MORSE:");
                 traduccionPosible = Claves.deMorse(texto);
                 break;
-            case MainActivity.MAS1:
+            case Constantes.MAS1:
                 titulo.setText("MAS 1:");
                 traduccionPosible = Claves.M1(texto);
                 break;
-            case MainActivity.MENOS1:
+            case Constantes.MENOS1:
                 titulo.setText("MENOS 1:");
                 traduccionPosible = Claves.m1(texto);
                 break;
-            case MainActivity.AGUJERITO:
+            case Constantes.AGUJERITO:
                 titulo.setText("AGUJERITO:");
                 traduccionPosible = Claves.agujerito(texto);
                 break;
-            case MainActivity.CENIT_POLAR:
+            case Constantes.CENIT_POLAR:
                 titulo.setText("CENIT POLAR:");
                 traduccionPosible = Claves.cenitPolar(texto);
                 break;
-            case MainActivity.NEUMATICO:
+            case Constantes.NEUMATICO:
                 titulo.setText("NEUMATICO:");
                 traduccionPosible = Claves.neumatico(texto);
                 break;
-            case MainActivity.ROMANA:
+            case Constantes.ROMANA:
                 titulo.setText("ROMANA:");
                 traduccionPosible = Claves.deRomana(texto);
                 break;
-            case MainActivity.SUFAMELICO:
+            case Constantes.SUFAMELICO:
                 titulo.setText("SUFAMELICO:");
                 traduccionPosible = Claves.sufamelico(texto);
                 break;
-            case MainActivity.LAPIZ_NEGRO:
+            case Constantes.LAPIZ_NEGRO:
                 titulo.setText("LAPIZ NEGRO:");
                 traduccionPosible = Claves.lapizNegro(texto);
                 break;
-            case MainActivity.HUERFANITO:
+            case Constantes.HUERFANITO:
                 titulo.setText("HUERFANITO:");
                 traduccionPosible = Claves.huerfanito(texto);
                 break;
-            case MainActivity.ORQUIDEA:
+            case Constantes.ORQUIDEA:
                 titulo.setText("ORQUIDEA:");
                 traduccionPosible = Claves.orquidea(texto);
                 break;
-            case MainActivity.JULIO_CESAR:
+            case Constantes.JULIO_CESAR:
                 titulo.setText("JULIO CESAR:");
                 traduccionPosible = Claves.julioCesar(texto);
                 break;
-            case MainActivity.ABUELITO:
+            case Constantes.ABUELITO:
                 titulo.setText("ABUELITO:");
                 traduccionPosible = Claves.abuelito(texto);
                 break;
-            case MainActivity.EUCALIPTO:
+            case Constantes.EUCALIPTO:
                 titulo.setText("EUCALIPTO:");
                 traduccionPosible = Claves.eucalipto(texto);
                 break;
-            case MainActivity.HOMBRE:
+            case Constantes.HOMBRE:
                 titulo.setText("HOMBRE:");
                 traduccionPosible = Claves.deHombre(texto);
                 break;
-            case MainActivity.AL_REVES:
+            case Constantes.AL_REVES:
                 titulo.setText("AL REVES:");
                 traduccionPosible = Claves.alReves(texto);
                 break;
-            case MainActivity.REINADO:
+            case Constantes.REINADO:
                 titulo.setText("REINADO:");
                 traduccionPosible = Claves.reinado(texto);
                 break;
-            case MainActivity.DON_MATIAS:
+            case Constantes.DON_MATIAS:
                 titulo.setText("DON MATIAS:");
                 traduccionPosible = Claves.donMatias(texto);
                 break;
-            case MainActivity.VOCAL:
+            case Constantes.VOCAL:
                 titulo.setText("VOCAL:");
                 traduccionPosible = Claves.vocal(texto);
                 break;
-            case MainActivity.PZ:
+            case Constantes.PZ:
                 titulo.setText("PZ:");
                 traduccionPosible = Claves.dePZ(texto);
                 break;
-            case MainActivity.PARELINOFU:
+            case Constantes.PARELINOFU:
                 titulo.setText("PARELINOFU:");
                 traduccionPosible = Claves.parelinofu(texto);
                 break;
@@ -153,7 +153,7 @@ public class AdaptadorListaTraducciones extends BaseAdapter {
         row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.posSel = j;
+                Constantes.posSel = j;
                 ((Activity)context).finish();
             }
         });
@@ -162,14 +162,14 @@ public class AdaptadorListaTraducciones extends BaseAdapter {
             public void onClick(View v) {
                 boolean encontrada = false;
                 int pos = 0;
-                while(!encontrada && pos < MainActivity.clavesValidas.size()){
-                    if(MainActivity.clavesValidas.get(pos) == MainActivity.clavesPosibles.get(j)){
+                while(!encontrada && pos < Constantes.clavesValidas.size()){
+                    if(Constantes.clavesValidas.get(pos) == Constantes.clavesPosibles.get(j)){
                         encontrada = true;
                     }else{
                         pos = pos + 1;
                     }
                 }
-                MainActivity.posSel = pos;
+                Constantes.posSel = pos;
                 ((Activity)context).finish();
             }
         });

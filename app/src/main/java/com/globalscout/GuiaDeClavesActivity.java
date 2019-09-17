@@ -256,25 +256,25 @@ public class GuiaDeClavesActivity extends AppCompatActivity implements Navigatio
         finish();
         switch (id){
             case R.id.menuSemaforo:
-                MainActivity.semaforo(this);
+                Constantes.semaforo(this);
                 return true;
             case R.id.menuLinterna:
-                MainActivity.linternaMorse(this);
+                Constantes.linternaMorse(this);
                 return true;
             case R.id.menuTeclado:
-                MainActivity.tecladoEspecial(this);
+                Constantes.tecladoEspecial(this);
                 return true;
             case R.id.menuJuego:
-                MainActivity.iniciarJuego(this);
+                Constantes.iniciarJuego(this);
                 return true;
             case R.id.menuDoble:
-                MainActivity.clavesDobles(this);
+                Constantes.clavesDobles(this);
                 return true;
             case R.id.menuTriple:
-                MainActivity.clavesTriple(this);
+                Constantes.clavesTriple(this);
                 return true;
             case R.id.menuPreferencias:
-                MainActivity.preferencias(this);
+                Constantes.preferencias(this);
                 return true;
             default:
                 return true;

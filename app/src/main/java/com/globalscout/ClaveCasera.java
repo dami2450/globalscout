@@ -381,46 +381,6 @@ public class ClaveCasera extends AppCompatActivity implements NavigationView.OnN
         return shareIntent;
     }
 
-    public static void linternaMorse(Context context){
-        Intent intent = new Intent(context, LinternaMorseActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void semaforo(Context context){
-        Intent intent = new Intent(context, codificacionSemaforaActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void guiaClaves(Context context){
-        Intent intent = new Intent(context, GuiaDeClavesActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void clavesDobles(Context context){
-        Intent intent = new Intent(context, ClavesDobles.class);
-        context.startActivity(intent);
-    }
-
-    public static void clavesTriple(Context context){
-        Intent intent = new Intent(context, ClavesTriples.class);
-        context.startActivity(intent);
-    }
-
-    public static void preferencias(Context context){
-        Intent intent = new Intent(context, PreferenciasActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void iniciarJuego(Context context){
-        Intent intent = new Intent(context, JuegoActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void tecladoEspecial(Context context){
-        Intent intent = new Intent(context, TecladoEspecialActivity.class);
-        context.startActivity(intent);
-    }
-
     public void armarImagenes(){
         switch (clavesValidas.get(posSel)){
             case REEMPLAZO:
@@ -460,28 +420,28 @@ public class ClaveCasera extends AppCompatActivity implements NavigationView.OnN
         int id = item.getItemId();
         switch (id){
             case R.id.menuSemaforo:
-                semaforo(this);
+                Constantes.semaforo(this);
                 return true;
             case R.id.menuLinterna:
-                linternaMorse(this);
+                Constantes.linternaMorse(this);
                 return true;
             case R.id.menuTeclado:
-                tecladoEspecial(this);
+                Constantes.tecladoEspecial(this);
                 return true;
             case R.id.menuJuego:
-                iniciarJuego(this);
+                Constantes.iniciarJuego(this);
                 return true;
             case R.id.menuGuia:
-                guiaClaves(this);
+                Constantes.guiaClaves(this);
                 return true;
             case R.id.menuDoble:
-                clavesDobles(this);
+                Constantes.clavesDobles(this);
                 return true;
             case R.id.menuTriple:
-                clavesTriple(this);
+                Constantes.clavesTriple(this);
                 return true;
             case R.id.menuPreferencias:
-                preferencias(this);
+                Constantes.preferencias(this);
                 return true;
             default:
                 return true;

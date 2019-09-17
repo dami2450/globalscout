@@ -2,16 +2,11 @@ package com.globalscout;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-
-import java.util.ArrayList;
-
-import static android.app.Activity.RESULT_OK;
 
 public class AdaptadorGrillaClaves extends BaseAdapter {
     private Context context;
@@ -22,7 +17,7 @@ public class AdaptadorGrillaClaves extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return MainActivity.clavesValidas.size();
+        return Constantes.clavesValidas.size();
     }
 
     @Override
@@ -43,108 +38,108 @@ public class AdaptadorGrillaClaves extends BaseAdapter {
         final ImageView imagen;
         imagen = (ImageView) row.findViewById(R.id.imagen);
         final int j = i;
-        switch (MainActivity.clavesValidas.get(j)){
-            case MainActivity.MURCIELAGO:
+        switch (Constantes.clavesValidas.get(j)){
+            case Constantes.MURCIELAGO:
                 imagen.setImageResource(R.drawable.guiamurcielago);
                 break;
-            case MainActivity.DAME_TU_PICO:
+            case Constantes.DAME_TU_PICO:
                 imagen.setImageResource(R.drawable.guiadametupico);
                 break;
-            case MainActivity.NUMERICA:
+            case Constantes.NUMERICA:
                 imagen.setImageResource(R.drawable.guianumerica);
                 break;
-            case MainActivity.INVERTIDA:
+            case Constantes.INVERTIDA:
                 imagen.setImageResource(R.drawable.guiainvertida);
                 break;
-            case MainActivity.BADEN_POWELL:
+            case Constantes.BADEN_POWELL:
                 imagen.setImageResource(R.drawable.guiabadenpowell);
                 break;
-            case MainActivity.MORSE:
+            case Constantes.MORSE:
                 imagen.setImageResource(R.drawable.guiamorse);
                 break;
-            case MainActivity.MAS1:
+            case Constantes.MAS1:
                 imagen.setImageResource(R.drawable.guiamasuno);
                 break;
-            case MainActivity.MENOS1:
+            case Constantes.MENOS1:
                 imagen.setImageResource(R.drawable.guiamenosuno);
                 break;
-            case MainActivity.AGUJERITO:
+            case Constantes.AGUJERITO:
                 imagen.setImageResource(R.drawable.guiaagujerito);
                 break;
-            case MainActivity.CENIT_POLAR:
+            case Constantes.CENIT_POLAR:
                 imagen.setImageResource(R.drawable.guiacenitpolar);
                 break;
-            case MainActivity.NEUMATICO:
+            case Constantes.NEUMATICO:
                 imagen.setImageResource(R.drawable.guianeumatico);
                 break;
-            case MainActivity.ROMANA:
+            case Constantes.ROMANA:
                 imagen.setImageResource(R.drawable.guiaromana);
                 break;
-            case MainActivity.SUFAMELICO:
+            case Constantes.SUFAMELICO:
                 imagen.setImageResource(R.drawable.guiasufamelico);
                 break;
-            case MainActivity.LAPIZ_NEGRO:
+            case Constantes.LAPIZ_NEGRO:
                 imagen.setImageResource(R.drawable.guialapiznegro);
                 break;
-            case MainActivity.HUERFANITO:
+            case Constantes.HUERFANITO:
                 imagen.setImageResource(R.drawable.guiahuerfanito);
                 break;
-            case MainActivity.ORQUIDEA:
+            case Constantes.ORQUIDEA:
                 imagen.setImageResource(R.drawable.guiaorquidea);
                 break;
-            case MainActivity.JULIO_CESAR:
+            case Constantes.JULIO_CESAR:
                 imagen.setImageResource(R.drawable.guiajuliocesar);
                 break;
-            case MainActivity.ABUELITO:
+            case Constantes.ABUELITO:
                 imagen.setImageResource(R.drawable.guiaabuelito);
                 break;
-            case MainActivity.EUCALIPTO:
+            case Constantes.EUCALIPTO:
                 imagen.setImageResource(R.drawable.guiaeucalipto);
                 break;
-            case MainActivity.HOMBRE:
+            case Constantes.HOMBRE:
                 imagen.setImageResource(R.drawable.guiahombre);
                 break;
-            case MainActivity.AL_REVES:
+            case Constantes.AL_REVES:
                 imagen.setImageResource(R.drawable.guiaalreves);
                 break;
-            case MainActivity.REINADO:
+            case Constantes.REINADO:
                 imagen.setImageResource(R.drawable.guiareinado);
                 break;
-            case MainActivity.DON_MATIAS:
+            case Constantes.DON_MATIAS:
                 imagen.setImageResource(R.drawable.guiadonmatias);
                 break;
-            case MainActivity.CALENDARIO:
+            case Constantes.CALENDARIO:
                 imagen.setImageResource(R.drawable.guiacalendario);
                 break;
-            case MainActivity.SIETE_CRUCES:
+            case Constantes.SIETE_CRUCES:
                 imagen.setImageResource(R.drawable.guiasietecruces);
                 break;
-            case MainActivity.PARRILLA_SIMPLE:
+            case Constantes.PARRILLA_SIMPLE:
                 imagen.setImageResource(R.drawable.guiaparrillasimple);
                 break;
-            case MainActivity.PARRILLA_COMPUESTA:
+            case Constantes.PARRILLA_COMPUESTA:
                 imagen.setImageResource(R.drawable.guiaparrillacompuesta);
                 break;
-            case MainActivity.VOCAL:
+            case Constantes.VOCAL:
                 imagen.setImageResource(R.drawable.guiavocal);
                 break;
-            case MainActivity.ANGULO:
+            case Constantes.ANGULO:
                 imagen.setImageResource(R.drawable.guiaangulo);
                 break;
-            case MainActivity.PZ:
+            case Constantes.PZ:
                 imagen.setImageResource(R.drawable.guiapz);
                 break;
-            case MainActivity.PARELINOFU:
+            case Constantes.PARELINOFU:
                 imagen.setImageResource(R.drawable.guiaparelinofu);
                 break;
-            case MainActivity.CARACOL:
+            case Constantes.CARACOL:
                 imagen.setImageResource(R.drawable.guiacaracol);
                 break;
         }
         row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.posSel = j;
+                Constantes.posSel = j;
                 ((Activity)context).finish();
             }
         });

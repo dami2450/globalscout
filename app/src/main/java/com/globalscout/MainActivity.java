@@ -13,12 +13,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
-import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
-import android.text.TextWatcher;
 import android.text.style.ImageSpan;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -52,45 +49,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ShareActionProvider mShareActionProvider;
     boolean aHombre = false;
     DrawerLayout drawer;
-    final static int MURCIELAGO = 1;
-    final static int DAME_TU_PICO = 2;
-    final static int NUMERICA = 3;
-    final static int INVERTIDA = 4;
-    final static int BADEN_POWELL = 5;
-    final static int MORSE = 6;
-    final static int MAS1 = 7;
-    final static int MENOS1 = 8;
-    final static int AGUJERITO = 9;
-    final static int CENIT_POLAR = 10;
-    final static int ROMANA = 11;
-    final static int NEUMATICO = 12;
-    final static int SUFAMELICO = 13;
-    final static int LAPIZ_NEGRO = 14;
-    final static int HUERFANITO = 15;
-    final static int ORQUIDEA = 16;
-    final static int JULIO_CESAR = 17;
-    final static int ABUELITO = 18;
-    final static int EUCALIPTO = 19;
-    final static int HOMBRE = 20;
-    final static int AL_REVES = 21;
-    final static int REINADO = 22;
-    final static int DON_MATIAS = 23;
-    final static int CALENDARIO = 24;
-    final static int SIETE_CRUCES = 25;
-    final static int PARRILLA_SIMPLE = 26;
-    final static int PARRILLA_COMPUESTA = 27;
-    final static int VOCAL = 28;
-    final static int ANGULO = 29;
-    final static int PZ = 30;
-    final static int PARELINOFU = 31;
-    final static int MAXIMO = 32;
-    final static int CARACOL = 1000;
-    final static String TEXTO = "TEXTO";
-    final static String TRADUCCION = "TRADUCCION";
-    final static String CLAVE = "CLAVE";
-    static ArrayList<Integer> clavesValidas = new ArrayList<Integer>();
-    static ArrayList<Integer> clavesPosibles = new ArrayList<Integer>();
-    static int posSel = 0;
     Button volverAIntentarHombre;
 
     @Override
@@ -138,14 +96,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View v) {
                 Intent intentGrilla = new Intent(MainActivity.this,GrillaClavesActivity.class);
-                startActivityForResult(intentGrilla,2450);
+                startActivityForResult(intentGrilla,Constantes.GENERICO);
             }
         });
         textoCambiar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentGrilla = new Intent(MainActivity.this,GrillaClavesActivity.class);
-                startActivityForResult(intentGrilla,2450);
+                startActivityForResult(intentGrilla,Constantes.GENERICO);
             }
         });
         textoATraducir = (EditText) findViewById(R.id.textoATraducir);
@@ -153,9 +111,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View v) {
                 Intent intentTraducir = new Intent(MainActivity.this,TraduccionActivity.class);
-                intentTraducir.putExtra(TEXTO, textoATraducir.getText().toString());
-                intentTraducir.putExtra(CLAVE, clavesValidas.get(posSel));
-                startActivityForResult(intentTraducir,1700);
+                intentTraducir.putExtra(Constantes.TEXTO, textoATraducir.getText().toString());
+                intentTraducir.putExtra(Constantes.CLAVE, Constantes.clavesValidas.get(Constantes.posSel));
+                startActivityForResult(intentTraducir,Constantes.TRADUCCION_VENTANA);
             }
         });
         textoATraducir.setTextIsSelectable(false);
@@ -181,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         caracolizado = (TextView) findViewById(R.id.caracolizado);
         botonesHombre = (LinearLayout) findViewById(R.id.botonesHombre);
         anterior = "";
-        actualizarIncluidos(this);
+        Constantes.actualizarIncluidos(this);
     }
 
     public String aODeHombre(String texto){
@@ -215,102 +173,102 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }else{
             contenedorOpciones.setVisibility(View.VISIBLE);
         }
-        switch(clavesValidas.get(posSel)){
-            case(MURCIELAGO):
+        switch(Constantes.clavesValidas.get(Constantes.posSel)){
+            case(Constantes.MURCIELAGO):
                 traduccion = Claves.murcielago(texto);
                 break;
-            case(DAME_TU_PICO):
+            case(Constantes.DAME_TU_PICO):
                 traduccion = Claves.dameTuPico(texto);
                 break;
-            case(NUMERICA):
+            case(Constantes.NUMERICA):
                 traduccion = Claves.numerica(texto);
                 break;
-            case(INVERTIDA):
+            case(Constantes.INVERTIDA):
                 traduccion = Claves.invertida(texto);
                 break;
-            case(BADEN_POWELL):
+            case(Constantes.BADEN_POWELL):
                 traduccion = Claves.badenPowell(texto);
                 break;
-            case(MORSE):
+            case(Constantes.MORSE):
                 traduccion = Claves.aODeMorse(texto);
                 break;
-            case(MAS1):
+            case(Constantes.MAS1):
                 traduccion = Claves.M1(texto);
                 break;
-            case(MENOS1):
+            case(Constantes.MENOS1):
                 traduccion = Claves.m1(texto);
                 break;
-            case(AGUJERITO):
+            case(Constantes.AGUJERITO):
                 traduccion = Claves.agujerito(texto);
                 break;
-            case(CENIT_POLAR):
+            case(Constantes.CENIT_POLAR):
                 traduccion = Claves.cenitPolar(texto);
                 break;
-            case(NEUMATICO):
+            case(Constantes.NEUMATICO):
                 traduccion = Claves.neumatico(texto);
                 break;
-            case(ROMANA):
+            case(Constantes.ROMANA):
                 traduccion = Claves.aODeRomana(texto);
                 break;
-            case(SUFAMELICO):
+            case(Constantes.SUFAMELICO):
                 traduccion = Claves.sufamelico(texto);
                 break;
-            case(LAPIZ_NEGRO):
+            case(Constantes.LAPIZ_NEGRO):
                 traduccion = Claves.lapizNegro(texto);
                 break;
-            case(HUERFANITO):
+            case(Constantes.HUERFANITO):
                 traduccion = Claves.huerfanito(texto);
                 break;
-            case(ORQUIDEA):
+            case(Constantes.ORQUIDEA):
                 traduccion = Claves.orquidea(texto);
                 break;
-            case(JULIO_CESAR):
+            case(Constantes.JULIO_CESAR):
                 traduccion = Claves.julioCesar(texto);
                 break;
-            case(ABUELITO):
+            case(Constantes.ABUELITO):
                 traduccion = Claves.abuelito(texto);
                 break;
-            case(EUCALIPTO):
+            case(Constantes.EUCALIPTO):
                 traduccion = Claves.eucalipto(texto);
                 break;
-            case(HOMBRE):
+            case(Constantes.HOMBRE):
                 traduccion = aODeHombre(texto);
                 botonesHombre.setVisibility(View.VISIBLE);
                 break;
-            case(AL_REVES):
+            case(Constantes.AL_REVES):
                 traduccion = Claves.alReves(texto);
                 break;
-            case(REINADO):
+            case(Constantes.REINADO):
                 traduccion = Claves.reinado(texto);
                 break;
-            case(DON_MATIAS):
+            case(Constantes.DON_MATIAS):
                 traduccion = Claves.donMatias(texto);
                 break;
-            case(CALENDARIO):
+            case(Constantes.CALENDARIO):
                 traduccion = Claves.aODeCalendario(texto);
                 break;
-            case(SIETE_CRUCES):
+            case(Constantes.SIETE_CRUCES):
                 traduccion = Claves.a7Cruces(texto);
                 break;
-            case(PARRILLA_SIMPLE):
+            case(Constantes.PARRILLA_SIMPLE):
                 traduccion = Claves.aParrillaSimple(texto);
                 break;
-            case(PARRILLA_COMPUESTA):
+            case(Constantes.PARRILLA_COMPUESTA):
                 traduccion = Claves.aParrillaCompuesta(texto);
                 break;
-            case(VOCAL):
+            case(Constantes.VOCAL):
                 traduccion = Claves.vocal(texto);
                 break;
-            case(ANGULO):
+            case(Constantes.ANGULO):
                 traduccion = Claves.aAngulo(texto);
                 break;
-            case(PZ):
+            case(Constantes.PZ):
                 traduccion = Claves.aODePZ(texto);
                 break;
-            case(PARELINOFU):
+            case(Constantes.PARELINOFU):
                 traduccion = Claves.parelinofu(texto);
                 break;
-            case CARACOL:
+            case Constantes.CARACOL:
                 contenedorCaracol.setVisibility(View.VISIBLE);
                 caracolizado.setText(Claves.caracolizar(texto));
                 traduccion = "";
@@ -370,173 +328,107 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return shareIntent;
     }
 
-    public static void linternaMorse(Context context){
-        Intent intent = new Intent(context, LinternaMorseActivity.class);
-        context.startActivity(intent);
-    }
 
-    public static void semaforo(Context context){
-        Intent intent = new Intent(context, codificacionSemaforaActivity.class);
-        context.startActivity(intent);
-    }
 
-    public static void guiaClaves(Context context){
-        Intent intent = new Intent(context, GuiaDeClavesActivity.class);
-        context.startActivity(intent);
-    }
 
-    public static void clavesDobles(Context context){
-        Intent intent = new Intent(context, ClavesDobles.class);
-        context.startActivity(intent);
-    }
 
-    public static void clavesTriple(Context context){
-        Intent intent = new Intent(context, ClavesTriples.class);
-        context.startActivity(intent);
-    }
-
-    public static void preferencias(Context context){
-        Intent intent = new Intent(context, PreferenciasActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void iniciarJuego(Context context){
-        Intent intent = new Intent(context, JuegoActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void claveCasera(Context context){
-        Intent intent = new Intent(context, ClaveCasera.class);
-        context.startActivity(intent);
-    }
-
-    public static void tecladoEspecial(Context context){
-        Intent intent = new Intent(context, TecladoEspecialActivity.class);
-        context.startActivity(intent);
-    }
-
-    public static void incluirClave(int clave, boolean incluida, Context context){
-        SharedPreferences claveIncluida = PreferenceManager.getDefaultSharedPreferences(context);
-        SharedPreferences.Editor editor = claveIncluida.edit();
-        editor.putBoolean(("CLAVE_"+clave),incluida);
-        editor.commit();
-        actualizarIncluidos(context);
-    }
-
-    public static boolean esClaveIncluida(int clave, Context context){
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        return prefs.getBoolean(("CLAVE_"+clave),true);
-    }
-
-    public static void actualizarIncluidos(Context context){
-        clavesValidas.clear();
-        posSel = 0;
-        for (int i = 1; i < MAXIMO; i++){
-            if(esClaveIncluida(i,context)){
-                clavesValidas.add(i);
-            }
-        }
-        if(esClaveIncluida(CARACOL,context)){
-            clavesValidas.add(CARACOL);
-        }
-    }
 
     public void armarImagenes(boolean traducir){
-        switch (clavesValidas.get(posSel)){
-            case MURCIELAGO:
+        switch (Constantes.clavesValidas.get(Constantes.posSel)){
+            case Constantes.MURCIELAGO:
                 logoClave.setImageResource(R.drawable.guiamurcielago);
                 break;
-            case DAME_TU_PICO:
+            case Constantes.DAME_TU_PICO:
                 logoClave.setImageResource(R.drawable.guiadametupico);
                 break;
-            case NUMERICA:
+            case Constantes.NUMERICA:
                 logoClave.setImageResource(R.drawable.guianumerica);
                 break;
-            case INVERTIDA:
+            case Constantes.INVERTIDA:
                 logoClave.setImageResource(R.drawable.guiainvertida);
                 break;
-            case BADEN_POWELL:
+            case Constantes.BADEN_POWELL:
                 logoClave.setImageResource(R.drawable.guiabadenpowell);
                 break;
-            case MORSE:
+            case Constantes.MORSE:
                 logoClave.setImageResource(R.drawable.guiamorse);
                 break;
-            case MAS1:
+            case Constantes.MAS1:
                 logoClave.setImageResource(R.drawable.guiamasuno);
                 break;
-            case MENOS1:
+            case Constantes.MENOS1:
                 logoClave.setImageResource(R.drawable.guiamenosuno);
                 break;
-            case AGUJERITO:
+            case Constantes.AGUJERITO:
                 logoClave.setImageResource(R.drawable.guiaagujerito);
                 break;
-            case CENIT_POLAR:
+            case Constantes.CENIT_POLAR:
                 logoClave.setImageResource(R.drawable.guiacenitpolar);
                 break;
-            case NEUMATICO:
+            case Constantes.NEUMATICO:
                 logoClave.setImageResource(R.drawable.guianeumatico);
                 break;
-            case ROMANA:
+            case Constantes.ROMANA:
                 logoClave.setImageResource(R.drawable.guiaromana);
                 break;
-            case SUFAMELICO:
+            case Constantes.SUFAMELICO:
                 logoClave.setImageResource(R.drawable.guiasufamelico);
                 break;
-            case LAPIZ_NEGRO:
+            case Constantes.LAPIZ_NEGRO:
                 logoClave.setImageResource(R.drawable.guialapiznegro);
                 break;
-            case HUERFANITO:
+            case Constantes.HUERFANITO:
                 logoClave.setImageResource(R.drawable.guiahuerfanito);
                 break;
-            case ORQUIDEA:
+            case Constantes.ORQUIDEA:
                 logoClave.setImageResource(R.drawable.guiaorquidea);
                 break;
-            case JULIO_CESAR:
+            case Constantes.JULIO_CESAR:
                 logoClave.setImageResource(R.drawable.guiajuliocesar);
                 break;
-            case ABUELITO:
+            case Constantes.ABUELITO:
                 logoClave.setImageResource(R.drawable.guiaabuelito);
                 break;
-            case EUCALIPTO:
+            case Constantes.EUCALIPTO:
                 logoClave.setImageResource(R.drawable.guiaeucalipto);
                 break;
-            case HOMBRE:
+            case Constantes.HOMBRE:
                 logoClave.setImageResource(R.drawable.guiahombre);
                 break;
-            case AL_REVES:
+            case Constantes.AL_REVES:
                 logoClave.setImageResource(R.drawable.guiaalreves);
                 break;
-            case REINADO:
+            case Constantes.REINADO:
                 logoClave.setImageResource(R.drawable.guiareinado);
                 break;
-            case DON_MATIAS:
+            case Constantes.DON_MATIAS:
                 logoClave.setImageResource(R.drawable.guiadonmatias);
                 break;
-            case CALENDARIO:
+            case Constantes.CALENDARIO:
                 logoClave.setImageResource(R.drawable.guiacalendario);
                 break;
-            case SIETE_CRUCES:
+            case Constantes.SIETE_CRUCES:
                 logoClave.setImageResource(R.drawable.guiasietecruces);
                 break;
-            case PARRILLA_SIMPLE:
+            case Constantes.PARRILLA_SIMPLE:
                 logoClave.setImageResource(R.drawable.guiaparrillasimple);
                 break;
-            case PARRILLA_COMPUESTA:
+            case Constantes.PARRILLA_COMPUESTA:
                 logoClave.setImageResource(R.drawable.guiaparrillacompuesta);
                 break;
-            case VOCAL:
+            case Constantes.VOCAL:
                 logoClave.setImageResource(R.drawable.guiavocal);
                 break;
-            case ANGULO:
+            case Constantes.ANGULO:
                 logoClave.setImageResource(R.drawable.guiaangulo);
                 break;
-            case PZ:
+            case Constantes.PZ:
                 logoClave.setImageResource(R.drawable.guiapz);
                 break;
-            case PARELINOFU:
+            case Constantes.PARELINOFU:
                 logoClave.setImageResource(R.drawable.guiaparelinofu);
                 break;
-            case CARACOL:
+            case Constantes.CARACOL:
                 logoClave.setImageResource(R.drawable.guiacaracol);
                 break;
         }
@@ -546,9 +438,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void aleatorio(View view){
-        if(clavesValidas.size() > 1){
+        if(Constantes.clavesValidas.size() > 1){
             Random rnd = new Random();
-            posSel = (int) (rnd.nextDouble() * (clavesValidas.size()-1));
+            Constantes.posSel = (int) (rnd.nextDouble() * (Constantes.clavesValidas.size()-1));
             armarImagenes(true);
         }else{
             Toast.makeText(this, "No se puede elegir una clave al azar si no se tiene ninguna clave aprobada", Toast.LENGTH_LONG).show();
@@ -557,12 +449,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     public void multiclave (View view){
         int total;
-        if(esClaveIncluida(CARACOL,this)){
+        if(Constantes.esClaveIncluida(Constantes.CARACOL,this)){
             total = 2;
         }else{
             total = 1;
         }
-        if(clavesValidas.size() > total){
+        if(Constantes.clavesValidas.size() > total){
             traduccion = Claves.multiclaveAleatoria(textoATraducir.getText().toString().toUpperCase(), this);
             textoTraducido.setText(getSmiledText(traduccion));
         }else{
@@ -571,7 +463,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void traduccionInteligente(View view){
-        clavesPosibles = new ArrayList<Integer>();
+        Constantes.clavesPosibles = new ArrayList<Integer>();
         String texto = textoATraducir.getText().toString().toUpperCase();
         int a = 0;
         int b = texto.length();
@@ -612,108 +504,108 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         if ((CI > 0) && (CI == letras)) {
-            if(clavesValidas.contains(ROMANA)){
-                clavesPosibles.add(ROMANA);
+            if(Constantes.clavesValidas.contains(Constantes.ROMANA)){
+                Constantes.clavesPosibles.add(Constantes.ROMANA);
             }
         } else {
             if((CP > 0) && (CZ > 0) && (CP * 3) >= letras && (CZ * 3) >= letras){
-                if(clavesValidas.contains(PZ)){
-                    clavesPosibles.add(PZ);
+                if(Constantes.clavesValidas.contains(Constantes.PZ)){
+                    Constantes.clavesPosibles.add(Constantes.PZ);
                 }
             } else {
                 if (numeros > (letras / 2)) {
                     if (barra > letras) {
-                        if(clavesValidas.contains(NUMERICA)){
-                            clavesPosibles.add(NUMERICA);
+                        if(Constantes.clavesValidas.contains(Constantes.NUMERICA)){
+                            Constantes.clavesPosibles.add(Constantes.NUMERICA);
                         }
                     } else {
-                        if(clavesValidas.contains(MURCIELAGO)){
-                            clavesPosibles.add(MURCIELAGO);
+                        if(Constantes.clavesValidas.contains(Constantes.MURCIELAGO)){
+                            Constantes.clavesPosibles.add(Constantes.MURCIELAGO);
                         }
-                        if(clavesValidas.contains(NEUMATICO)){
-                            clavesPosibles.add(NEUMATICO);
+                        if(Constantes.clavesValidas.contains(Constantes.NEUMATICO)){
+                            Constantes.clavesPosibles.add(Constantes.NEUMATICO);
                         }
-                        if(clavesValidas.contains(AGUJERITO)){
-                            clavesPosibles.add(AGUJERITO);
+                        if(Constantes.clavesValidas.contains(Constantes.AGUJERITO)){
+                            Constantes.clavesPosibles.add(Constantes.AGUJERITO);
                         }
-                        if(clavesValidas.contains(HUERFANITO)){
-                            clavesPosibles.add(HUERFANITO);
+                        if(Constantes.clavesValidas.contains(Constantes.HUERFANITO)){
+                            Constantes.clavesPosibles.add(Constantes.HUERFANITO);
                         }
-                        if(clavesValidas.contains(ORQUIDEA)){
-                            clavesPosibles.add(ORQUIDEA);
+                        if(Constantes.clavesValidas.contains(Constantes.ORQUIDEA)){
+                            Constantes.clavesPosibles.add(Constantes.ORQUIDEA);
                         }
-                        if(clavesValidas.contains(ABUELITO)){
-                            clavesPosibles.add(ABUELITO);
+                        if(Constantes.clavesValidas.contains(Constantes.ABUELITO)){
+                            Constantes.clavesPosibles.add(Constantes.ABUELITO);
                         }
-                        if(clavesValidas.contains(EUCALIPTO)){
-                            clavesPosibles.add(EUCALIPTO);
+                        if(Constantes.clavesValidas.contains(Constantes.EUCALIPTO)){
+                            Constantes.clavesPosibles.add(Constantes.EUCALIPTO);
                         }
-                        if(clavesValidas.contains(REINADO)){
-                            clavesPosibles.add(REINADO);
+                        if(Constantes.clavesValidas.contains(Constantes.REINADO)){
+                            Constantes.clavesPosibles.add(Constantes.REINADO);
                         }
-                        if(clavesValidas.contains(VOCAL)){
-                            clavesPosibles.add(VOCAL);
+                        if(Constantes.clavesValidas.contains(Constantes.VOCAL)){
+                            Constantes.clavesPosibles.add(Constantes.VOCAL);
                         }
                     }
                 } else {
                     if (puntoRaya > letras) {
-                        if(clavesValidas.contains(MORSE)){
-                            clavesPosibles.add(MORSE);
+                        if(Constantes.clavesValidas.contains(Constantes.MORSE)){
+                            Constantes.clavesPosibles.add(Constantes.MORSE);
                         }
                     } else {
-                        if(clavesValidas.contains(DAME_TU_PICO)){
-                            clavesPosibles.add(DAME_TU_PICO);
+                        if(Constantes.clavesValidas.contains(Constantes.DAME_TU_PICO)){
+                            Constantes.clavesPosibles.add(Constantes.DAME_TU_PICO);
                         }
-                        if(clavesValidas.contains(INVERTIDA)){
-                            clavesPosibles.add(INVERTIDA);
+                        if(Constantes.clavesValidas.contains(Constantes.INVERTIDA)){
+                            Constantes.clavesPosibles.add(Constantes.INVERTIDA);
                         }
-                        if(clavesValidas.contains(BADEN_POWELL)){
-                            clavesPosibles.add(BADEN_POWELL);
+                        if(Constantes.clavesValidas.contains(Constantes.BADEN_POWELL)){
+                            Constantes.clavesPosibles.add(Constantes.BADEN_POWELL);
                         }
-                        if(clavesValidas.contains(CENIT_POLAR)){
-                            clavesPosibles.add(CENIT_POLAR);
+                        if(Constantes.clavesValidas.contains(Constantes.CENIT_POLAR)){
+                            Constantes.clavesPosibles.add(Constantes.CENIT_POLAR);
                         }
-                        if(clavesValidas.contains(SUFAMELICO)){
-                            clavesPosibles.add(SUFAMELICO);
+                        if(Constantes.clavesValidas.contains(Constantes.SUFAMELICO)){
+                            Constantes.clavesPosibles.add(Constantes.SUFAMELICO);
                         }
-                        if(clavesValidas.contains(MAS1)){
-                            clavesPosibles.add(MAS1);
+                        if(Constantes.clavesValidas.contains(Constantes.MAS1)){
+                            Constantes.clavesPosibles.add(Constantes.MAS1);
                         }
-                        if(clavesValidas.contains(MENOS1)){
-                            clavesPosibles.add(MENOS1);
+                        if(Constantes.clavesValidas.contains(Constantes.MENOS1)){
+                            Constantes.clavesPosibles.add(Constantes.MENOS1);
                         }
-                        if(clavesValidas.contains(LAPIZ_NEGRO)){
-                            clavesPosibles.add(LAPIZ_NEGRO);
+                        if(Constantes.clavesValidas.contains(Constantes.LAPIZ_NEGRO)){
+                            Constantes.clavesPosibles.add(Constantes.LAPIZ_NEGRO);
                         }
-                        if(clavesValidas.contains(JULIO_CESAR)){
-                            clavesPosibles.add(JULIO_CESAR);
+                        if(Constantes.clavesValidas.contains(Constantes.JULIO_CESAR)){
+                            Constantes.clavesPosibles.add(Constantes.JULIO_CESAR);
                         }
-                        if(clavesValidas.contains(AL_REVES)){
-                            clavesPosibles.add(AL_REVES);
+                        if(Constantes.clavesValidas.contains(Constantes.AL_REVES)){
+                            Constantes.clavesPosibles.add(Constantes.AL_REVES);
                         }
-                        if(clavesValidas.contains(HOMBRE)){
-                            clavesPosibles.add(HOMBRE);
+                        if(Constantes.clavesValidas.contains(Constantes.HOMBRE)){
+                            Constantes.clavesPosibles.add(Constantes.HOMBRE);
                         }
-                        if(clavesValidas.contains(DON_MATIAS)){
-                            clavesPosibles.add(DON_MATIAS);
+                        if(Constantes.clavesValidas.contains(Constantes.DON_MATIAS)){
+                            Constantes.clavesPosibles.add(Constantes.DON_MATIAS);
                         }
-                        if(clavesValidas.contains(PARELINOFU)){
-                            clavesPosibles.add(PARELINOFU);
+                        if(Constantes.clavesValidas.contains(Constantes.PARELINOFU)){
+                            Constantes.clavesPosibles.add(Constantes.PARELINOFU);
                         }
                     }
                 }
             }
         }
         Intent intentLista = new Intent(MainActivity.this,GrillaTraduccionesActivity.class);
-        intentLista.putExtra(TEXTO, (texto + "  "));
-        startActivityForResult(intentLista,2450);
+        intentLista.putExtra(Constantes.TEXTO, (texto + "  "));
+        startActivityForResult(intentLista,Constantes.GENERICO);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuCasero:
-                claveCasera(this);
+                Constantes.claveCasera(this);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -781,28 +673,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         switch (id){
             case R.id.menuSemaforo:
-                semaforo(this);
+                Constantes.semaforo(this);
                 return true;
             case R.id.menuLinterna:
-                linternaMorse(this);
+                Constantes.linternaMorse(this);
                 return true;
             case R.id.menuTeclado:
-                tecladoEspecial(this);
+                Constantes.tecladoEspecial(this);
                 return true;
             case R.id.menuJuego:
-                iniciarJuego(this);
+                Constantes.iniciarJuego(this);
                 return true;
             case R.id.menuGuia:
-                guiaClaves(this);
+                Constantes.guiaClaves(this);
                 return true;
             case R.id.menuDoble:
-                clavesDobles(this);
+                Constantes.clavesDobles(this);
                 return true;
             case R.id.menuTriple:
-                clavesTriple(this);
+                Constantes.clavesTriple(this);
                 return true;
             case R.id.menuPreferencias:
-                preferencias(this);
+                Constantes.preferencias(this);
                 return true;
             default:
                 return true;
@@ -812,12 +704,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 1700){
-            Log.v("probando2", "Texto: " + textoATraducir.getText().toString());
-            String original = data.getStringExtra(TEXTO);
-            String cambiado = data.getStringExtra(TRADUCCION);
+        if(requestCode == Constantes.TRADUCCION_VENTANA){
+            String original = data.getStringExtra(Constantes.TEXTO);
+            String cambiado = data.getStringExtra(Constantes.TRADUCCION);
             textoATraducir.setText(original);
             textoTraducido.setText(cambiado);
+            if(original != null && original.length() > 0){
+                for(int i = 10; i > 1; i--){
+                    int posterior = i - 1;
+                    String historialPosterior = Constantes.obtenerHistorial(posterior,this);
+                    Constantes.guardarHistorial(i,historialPosterior,this);
+                }
+                Constantes.guardarHistorial(1,original,this);
+            }
         }else{
             armarImagenes(true);
         }
